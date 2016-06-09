@@ -263,3 +263,12 @@ left:50px;
     margin: auto -160px;
   }
 }
+
+@media (min-width: 1920px)  {
+  .container {
+    left: 50%;
+    margin: auto -340px;
+    width: 680px;
+  }
+
+}
