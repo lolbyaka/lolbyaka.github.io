@@ -267,8 +267,8 @@ left:50px;
 @media (min-width: 1600px)  {
   .container {
     left: 50%;
-    margin: auto -340px;
-    width: 680px;
+    margin: auto -175px;
+    width: 550px;
   }
 
   p {
@@ -350,6 +350,6 @@ left:50px;
   width: 288px;
   height: 1px;
   top: 32px;
-  left:195px;
+  left:135px;
   }
 }
