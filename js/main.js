@@ -1,4 +1,4 @@
-var data_to = new Date(2016, 5, 10), //Дата в формате год, месяц(Отсчет начинается с нуля) и день.
+var data_to = new Date(2016, 6, 10), //Дата в формате год, месяц(Отсчет начинается с нуля) и день.
     time_left = Math.floor((data_to - (new Date())) / 1000); //Высчитываем оставшееся время в мс.
     cimg=1;
 function parseTime(time_count){
