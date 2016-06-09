@@ -271,4 +271,45 @@ left:50px;
     width: 680px;
   }
 
+  p {
+    font-size: 17.5pt;
+  }
+
+  .header-info{
+    font-size: 16.8pt;
+  }
+
+  .date {
+    font-size: 16pt;
+  }
+
+  .today {
+    font-size: 19pt;
+  }
+
+  p span {
+    font-size: 20.1pt;
+  }
+
+  h1{
+    font-size: 34pt;
+  }
+
+  input {
+    width: 280px;
+    height: 38.5px;
+    font-size: 10.5pt;
+  }
+
+  .button {
+    border: 3px solid #00dffc;
+    padding: 9px 37px;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+
 }
