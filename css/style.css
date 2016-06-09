@@ -302,14 +302,54 @@ left:50px;
   }
 
   .button {
-    border: 3px solid #00dffc;
-    padding: 9px 37px;
-    font-family: Arial, sans-serif;
     font-size: 15pt;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.3s;
   }
 
+  .days:after{
+    top:37px;
+    left: 9px;
+    font-size: 13px;
+  }
+
+  .hours:after{
+    top:37px;
+    left: 7px;
+    font-size: 13px;
+  }
+
+  .minutes:after{
+    top:37px;
+    left: 7px;
+    font-size: 13px;
+  }
+
+  .seconds:after{
+    top:37px;
+    left: 6px;
+    font-size: 13px;
+  }
+  /*Параметры для ячейки таймера*/
+  .time_bg{
+    width: 22px;
+    font-size: 26px;
+  }
+
+  .before_timer {
+    font-size: 16px;
+  }
+  .under_timer {
+    padding-top: 40px;
+    font-size: 15px;
+  }
+  /*Псевдоэлемент линия*/
+  .under_timer:before{
+  content: '';
+  background-image: url(/img/underline.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 288px;
+  height: 1px;
+  top: 32px;
+  left:195px;
+  }
 }
