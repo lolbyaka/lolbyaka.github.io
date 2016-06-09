@@ -267,8 +267,8 @@ left:50px;
 @media (min-width: 1600px)  {
   .container {
     left: 50%;
-    margin: auto -275px;
-    width: 550px;
+    margin: auto -225px;
+    width: 450px;
   }
 
   p {
