@@ -5,12 +5,12 @@
     <title>ReFace</title>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
   </head>
   <body>
     <section class="head">
       <div class="container">
-         <a href="#"><img src="../img/logo.png" alt="Masaa" class="logo" /></a>
+         <a href="#"><img src="./img/logo.png" alt="Masaa" class="logo" /></a>
          <div class="content_head">
            <div class="header_text">
              <h1>ReFace - полный курс омоложения<br>всего лица и шеи</h1>
@@ -50,8 +50,13 @@
              </div>
            <div class="contact_form">
              <p><span>Заполните</span> форму<br>для получения доступа!</p>
-             <input type="text" name="name" value="" placeholder="Введите ваш e-mail" class="input">
+             <div><input type="email" name="mail" value="" placeholder="Введите ваш e-mail" class="input"></div>
              <a href="#" class="button">ПОЛУЧИТЬ ДОСТУП</a>
+             <div><input type="hidden" name="partner_id" value=""></div>
+             <div><input type="submit" value="Принять участие"></div>
+
+
+
            </div>
          </div>
       </div>
@@ -60,7 +65,7 @@
       <div class="container">
         <h1>Об авторе курса</h1>
         <div class="about-author">
-          <img src="../img/author.png" alt="???">
+          <img src="./img/author.png" alt="???">
           <div class="author-text">
             <div class="name">Баженова Наталья</div>
             <p>Эксперт по проектированию внешности и по экспресс-омоложению</p>
@@ -94,8 +99,9 @@
           </div>
           <div class="copyright">Masaa.ru 2014-2016. Все права защищены</div>
         </div>
-        <a href="#"><img src="../img/logo_footer.png" alt="Masaa" class="logo" /></a>
+        <a href="#"><img src="./img/logo_footer.png" alt="Masaa" class="logo" /></a>
       </div>
     </footer>
+  <script src="./js/site.js"></script>
   </body>
 </html>
