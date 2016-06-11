@@ -129,28 +129,24 @@ h1 {
 }
 
 .t-container p {
-  vertical-align: middle;
-  display: inline-block;
-  padding: 0 0 0 0px;
-  position: relative;
-  margin: 0 0 0 15px;
   font-family: "Roboto",sans-serif;
   font-size: 16px;
   color: #fff;
   text-shadow: 0px 1px 5px black;
+  padding-left: 16px;
+  margin: 0;
 }
 
 .t-container p:before {
   content: "";
   position: relative;
-  display: inline-block;
+  display: block;
   width: 19px;
   height: 19px;
-  margin: 0;
-  top: 4px;
-  left: -15px;
+  top: 20px;
+  left: -25px;
   border-radius: 100%;
-  background-image: url("../img/icon.png");
+  background-image: url(../img/icon.png);
   background-position: -2px -2px;
 }
 
