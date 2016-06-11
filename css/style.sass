@@ -101,18 +101,7 @@ h1
 .favor :last-child
   padding-bottom: 0
 
-.t-container:before
-  content: ""
-  position: relative
-  display: inline-block
-  width: 19px
-  height: 19px
-  margin: 0
-  top: 7px
-  left: 0
-  border-radius: 100%
-  background-image: url("../img/icon.png")
-  background-position: -2px -2px
+
 .t-container
   display: inline-block
   width: 650px
@@ -120,13 +109,25 @@ h1
   p
     vertical-align: middle
     display: inline-block
-    padding: 0
+    padding: 0 0 0 0px
     position: relative
-    margin: 0 0 0 5px
+    margin: 0 0 0 15px
     font-family: "Roboto",sans-serif
     font-size: 16px
     color: #fff
     text-shadow: 0px 1px 5px rgba(0, 0, 0, 1)
+  p:before
+    content: ""
+    position: relative
+    display: inline-block
+    width: 19px
+    height: 19px
+    margin: 0
+    top: 4px
+    left: -15px
+    border-radius: 100%
+    background-image: url("../img/icon.png")
+    background-position: -2px -2px
 
 .timer
   margin: 40px 0
