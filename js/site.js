@@ -1,4 +1,4 @@
-var data_to = new Date(2016, 6, 15), //Дата в формате год, месяц(Отсчет начинается с нуля) и день.
+var data_to = new Date(2016, 12, 1), //Дата в формате год, месяц(Отсчет начинается с нуля) и день.
     time_left = Math.floor((data_to - (new Date())) / 1000); //Высчитываем оставшееся время в мс.
     cimg=1;
 function parseTime(time_count){
@@ -42,4 +42,31 @@ function parseTime(time_count){
                   alert('Время истекло.');
               }
           }, 1000);
+
+          $('form').submit(function(){
+        sendsform=$(this);
+        err_validate="";
+        sendsdate="partner_id=" + sendsform.children("input[name=partner_id]").val();
+        if((sendsform.find("input[name=user]").val()=="")&&(sendsform.find("input[name=phone]").val()=="")) {
+          redirect();
+          //location.href = "./zapis";
+          return false;
+        }
+        $('input, textarea', sendsform).each(function(indx, element){
+            my_attr=$(this).attr("name");
+            current_val=$(this).val();
+            if(my_attr=="user") { sendsdate+="&user="+current_val; }
+            else if(my_attr=="phone") { sendsdate+="&phone="+current_val; }
+            else if(my_attr=="mail") {
+              //%40 - unicode @
+              var regex = /^[\.A-z0-9_\-\+]+[@][A-z0-9_\-]+([.][A-z0-9_\-]+)+[A-z]{1,4}$/;
+              if(!regex.test(current_val)) {err_validate+="Некорректный e-mail";$(this).addClass("errorval");$(this).val("Укажите корректный e-mail");}
+              else {
+                var regex1 = /([@]ukr([.]net))$/;
+                if(regex1.test(current_val.toLowerCase())) { alert("Здравствуйте! К сожалению администрация Ukr.net не принимает почту от некоторых отправителей из Российской Федерации, поэтому введите, пожалуйста, другую почту. С уважением, организаторы."); err_validate+="Неверная почта";}
+                else {sendsdate+="&mail="+current_val;}
+              }
+            }
+        });
     });
+});
