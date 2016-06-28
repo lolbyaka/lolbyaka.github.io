@@ -3,7 +3,7 @@ body {
   left: 0;
   top: 0;
   margin: 0;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .container {
@@ -102,12 +102,14 @@ header .navigation {
 }
 
 /* ---END-HEADER--- */
+/* ---FIRST-SECTION--- */
 .main {
-  height: 684px;
+  height: 800px;
   background-image: url("../img/section_1_bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 555;
 }
 
 .promo_text {
@@ -180,7 +182,7 @@ header .navigation {
   background-image: url("../img/form_bg.png");
   background-size: cover;
   background-size: 100% 100%;
-  padding-right: 30px;
+  padding-right: 23px;
   float: right;
   margin-top: 50px;
 }
@@ -282,4 +284,62 @@ button {
   font-weight: 400;
   font-size: 13px;
   color: #7a7a7a;
+}
+
+/* ---END-FIRST-SECTION--- */
+.three_secrets {
+  height: 385px;
+  background-color: #fff;
+}
+
+.block_head p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #816950;
+}
+
+.head {
+  padding-top: 30px;
+}
+
+.head img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 2px;
+}
+
+.head .text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  top: -5px;
+}
+
+.secrets {
+  width: 530px;
+  float: left;
+}
+
+.text_promo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.block_add {
+  height: 314px;
+  background-color: #966941;
+}
+
+.secrets_img {
+  margin-top: -95px;
+  float: right;
+  height: 450px;
+  right: 0;
 }
