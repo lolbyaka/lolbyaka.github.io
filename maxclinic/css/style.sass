@@ -149,3 +149,56 @@ header
     font-weight: 700
     font-size: 22px
     color: #9a8261
+  .discount
+    font-family: "Roboto", sans-serif
+    font-weight: 500
+    font-size: 14px
+    color: #535353
+
+.price
+  margin-top: 15px
+
+.old_price
+  display: inline-block
+  vertical-align: top
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  color: #787673
+  margin-top: 5px
+  margin-right: 10px
+  position: relative
+  &::before
+    border-bottom: 2px solid #787673
+    position: absolute
+    content: ""
+    width: 46px
+    height: 48%
+    left: -3px
+  &::after
+    position: relative
+    display: inline-block
+    margin-left: 6px
+    content: ""
+    background-image: url("../img/price_gray.png")
+    background-repeat: no-repeat
+    background-size: cover
+    height: 13px
+    width: 11px
+
+.new_price
+  display: inline-block
+  font-family: "Roboto", sans-serif
+  font-weight: 600
+  font-size: 36.6px
+  color: #8f6238
+  vertical-align: top
+  &::after
+    position: relative
+    display: inline-block
+    margin-left: 6px
+    content: ""
+    background-image: url("../img/price_new.png")
+    background-repeat: no-repeat
+    background-size: cover
+    height: 26px
+    width: 23px
