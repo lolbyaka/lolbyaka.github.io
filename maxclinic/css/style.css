@@ -578,12 +578,19 @@ footer .phone .number {
 
 /* ---FIVE-SECTION--- */
 .efficiency {
-  height: 1140px;
+  height: 1238px;
   background-image: url("../img/section_5_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+}
+
+.efficiency p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #535353;
 }
 
 .efficiency .container_1 {
@@ -659,23 +666,53 @@ footer .phone .number {
   color: #976945;
 }
 
+.container_2 {
+  height: 330px;
+  margin-top: 45px;
+}
+
+.container_2 :first-child {
+  margin-right: 130px;
+}
+
 .stick {
-  height: 300px;
   width: 235px;
-  background-color: #e5e6e5;
   display: inline-block;
+}
+
+.stick_name {
+  margin-top: 12px;
+  background-color: #6a5036;
+  width: 233px;
+  padding: 6px 0;
+  border-radius: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  color: #fff;
+}
+
+.another_name {
+  margin-top: 12px;
+  color: #6a5036;
+  width: 233px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .equally {
-  height: 300px;
-  background-color: #e5e6e5;
-  width: 100px;
+  width: 180px;
+  height: 360px;
   display: inline-block;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 56.5px;
+  color: #342011;
 }
 
 .another_facilities {
-  height: 300px;
-  background-color: #e5e6e5;
   width: 235px;
   display: inline-block;
 }
