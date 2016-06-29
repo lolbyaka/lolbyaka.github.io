@@ -286,7 +286,6 @@ button {
   color: #7a7a7a;
 }
 
-/* ---END-FIRST-SECTION--- */
 /* ---SECOND-SECTION--- */
 .three_secrets {
   height: 388px;
@@ -343,7 +342,6 @@ button {
   float: right;
 }
 
-/* ---END-SECOND-SECTION--- */
 /* ---FOOTER--- */
 footer {
   height: 110px;
@@ -408,4 +406,115 @@ footer .phone .number {
   color: #fff;
 }
 
-/* ---END-FOOTER--- */
+/* ---THIRD-SECTION--- */
+.before_after {
+  height: 525px;
+  background-image: url("../img/before_after_bg.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.head_text {
+  padding-top: 40px;
+}
+
+.head_text h2 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #836c53;
+}
+
+.head_text p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #404040;
+}
+
+.head_text p::after {
+  content: "";
+  margin: 15px auto 0 auto;
+  display: block;
+  position: relative;
+  width: 140px;
+  height: 6px;
+  background-color: #ead7c0;
+}
+
+.defect {
+  width: 195px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.defect:last-child {
+  margin-right: 0;
+}
+
+.before_after_img {
+  height: 192px;
+  width: 192px;
+  background-color: #fff;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 2px;
+  background-color: #ead7c0;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ab794a;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.descr {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: left;
+  color: #4e4e4e;
+  margin-top: 5px;
+}
+
+.in_action {
+  height: 840px;
+  text-align: center;
+}
+
+.in_action h2::after {
+  content: "";
+  margin: 15px auto 0 auto;
+  display: block;
+  position: relative;
+  width: 140px;
+  height: 6px;
+  background-color: #ead7c0;
+}
+
+.in_action .promo_discount {
+  -webkit-filter: drop-shadow(1px 0px 2px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(1px 0px 2px rgba(0, 0, 0, 0.15));
+  margin-top: 115px;
+}
+
+.video_block {
+  float: left;
+  margin-top: 20px;
+}
+
+.video_block h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  color: #404040;
+}
