@@ -486,8 +486,9 @@ footer .phone .number {
   margin-top: 5px;
 }
 
+/* ---FOUR-SECTION--- */
 .in_action {
-  height: 840px;
+  height: 900px;
   text-align: center;
 }
 
@@ -573,4 +574,84 @@ footer .phone .number {
 
 .step_img img:first-child {
   margin-left: 35px;
+}
+
+/* ---FIVE-SECTION--- */
+.efficiency {
+  height: 1140px;
+  background-image: url("../img/section_5_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.efficiency .container_1 {
+  margin-top: 50px;
+  height: 470px;
+  background-image: url("../img/section_5_promo_image.png");
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.efficiency .container_1 .advantages {
+  clear: both;
+  width: 295px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 90px;
+}
+
+.efficiency .container_1 .advantages img {
+  display: inline-block;
+  width: 31px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.efficiency .container_1 .advantages .text_adv {
+  width: 250px;
+  display: inline-block;
+  text-align: left;
+}
+
+.efficiency .container_1 .advantages .text_adv .text_0 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #976945;
+}
+
+.efficiency .container_1 .advantages .text_adv .text_1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+}
+
+.efficiency .container_1 .left {
+  float: left;
+}
+
+.efficiency .container_1 .left:last-child {
+  margin-left: 90px;
+}
+
+.efficiency .container_1 .left:first-child {
+  margin-left: 20px;
+}
+
+.efficiency .container_1 .right {
+  float: right;
+}
+
+.efficiency .container_1 .right:last-child {
+  margin-right: 90px;
+}
+
+.efficiency .container_1 .right:first-child {
+  margin-right: 20px;
 }
