@@ -507,6 +507,10 @@ footer .phone .number {
   margin-top: 115px;
 }
 
+.in_action_container {
+  height: 420px;
+}
+
 .video_block {
   float: left;
   margin-top: 20px;
@@ -517,4 +521,56 @@ footer .phone .number {
   font-weight: 500;
   font-size: 21px;
   color: #404040;
+}
+
+.step {
+  display: inline-block;
+  margin-right: 50px;
+  height: 325px;
+  width: 425px;
+  text-align: left;
+}
+
+.step h4 {
+  margin: 60px 0 0 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #404040;
+}
+
+.step h4 span {
+  color: #c08e59;
+}
+
+.step p {
+  margin: 10px 0 0 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #404040;
+}
+
+.step .details {
+  margin-left: 35px;
+  margin-top: 10px;
+  font-family: "Rooto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #404040;
+}
+
+.step_img {
+  margin-top: 10px;
+  height: 90px;
+}
+
+.step_img img {
+  margin-left: 5px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.step_img img:first-child {
+  margin-left: 35px;
 }
