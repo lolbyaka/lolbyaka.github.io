@@ -659,6 +659,7 @@ footer .phone .number {
   font-weight: 500;
   font-size: 22px;
   color: #474747;
+  position: relative;
 }
 
 .s_text h2 span {
@@ -671,13 +672,23 @@ footer .phone .number {
   margin-top: 45px;
 }
 
-.container_2 :first-child {
-  margin-right: 130px;
-}
-
 .stick {
   width: 235px;
   display: inline-block;
+  padding-right: 140px;
+  position: relative;
+}
+
+.stick::after {
+  content: "=";
+  position: absolute;
+  float: right;
+  top: 130px;
+  left: 290px;
+  font-family: "Roboto", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  color: #342011;
 }
 
 .stick_name {

@@ -517,20 +517,33 @@ footer
     font-weight: 500
     font-size: 22px
     color: #474747
+    position: relative
     span
       font-weight: 800
       color: #976945
 
+
 .container_2
   height: 330px
   margin-top: 45px
-  & :first-child
-    margin-right: 130px
+
 
 
 .stick
   width: 235px
   display: inline-block
+  padding-right: 140px
+  position: relative
+  &::after
+    content: "="
+    position: absolute
+    float: right
+    top: 130px
+    left: 290px
+    font-family: "Roboto", sans-serif
+    font-size: 54px
+    font-weight: 700
+    color: #342011
 
 .stick_name
   margin-top: 12px
