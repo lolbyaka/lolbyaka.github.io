@@ -973,3 +973,53 @@ footer .phone .number {
 .sc_block span {
   color: #eed79f;
 }
+
+/* ДОСТАВКА*/
+.delivery {
+  height: 525px;
+  background-image: url("../img/before_after_bg.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.delivery_container {
+  height: 450px;
+  background-image: url("../img/map.png");
+  background-size: 70%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.delivery_b {
+  margin-top: 123px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 271px;
+  height: 46px;
+}
+
+.delivery_b img {
+  display: inline-block;
+  vertical-align: sub;
+  top: 3px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.delivery_b .d_text {
+  display: inline-block;
+  line-height: 46px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #69492f;
+}
+
+.d_left {
+  float: left;
+}
+
+.d_right {
+  float: right;
+}
