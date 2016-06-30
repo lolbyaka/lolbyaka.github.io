@@ -469,6 +469,34 @@ footer .phone .number {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
+.bai_0 {
+  background-image: url("../img/t_section_0.png");
+  background-position: -45px -10px;
+  background-size: 145%;
+  background-repeat: no-repeat;
+}
+
+.bai_1 {
+  background-image: url("../img/t_section_1.png");
+  background-position: -82px 0px;
+  background-size: 145%;
+  background-repeat: no-repeat;
+}
+
+.bai_2 {
+  background-image: url("../img/t_section_2.png");
+  background-position: -12px -20px;
+  background-size: 116%;
+  background-repeat: no-repeat;
+}
+
+.bai_3 {
+  background-image: url("../img/t_section_3.png");
+  background-position: -42px -20px;
+  background-size: 138%;
+  background-repeat: no-repeat;
+}
+
 .main_text {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -1262,4 +1290,167 @@ input {
   height: 12px;
   border-radius: 6px;
   background-color: #a37749;
+}
+
+.pay {
+  height: 650px;
+  background-image: url("../img/pay_page_bg.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.email {
+  margin-bottom: 50px;
+}
+
+.email input {
+  font-size: 15px;
+  font-weight: 500;
+  height: 35px;
+  width: 310px;
+  margin-top: 50px;
+}
+
+.email p {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: black;
+  width: 800px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  top: 18px;
+}
+
+.email .number_pay_step {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #7a542b;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.pay_method {
+  margin-bottom: 50px;
+}
+
+.pay_method p {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: black;
+  width: 800px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  top: 0;
+}
+
+.pay_method .number_pay_step {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #7a542b;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.pay_blocks {
+  margin-top: 40px;
+}
+
+.pay_block {
+  border-radius: 9px;
+  background-color: white;
+  width: 139px;
+  height: 102px;
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+.pay_block:hover {
+  border: 3px solid #a07d58;
+}
+
+.pay_block_x {
+  width: 146px;
+  height: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pay_descr {
+  width: 138px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #535353;
+  margin-top: 10px;
+}
+
+.visa {
+  background-image: url("../img/visa.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.sber {
+  background-image: url("../img/sber.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.ymoney {
+  background-image: url("../img/ymoney.png");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.alpha {
+  background-image: url("../img/alpha.png");
+  background-position: center;
+  background-size: 45%;
+  background-repeat: no-repeat;
+}
+
+.paypal {
+  background-image: url("../img/paypal.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+.another {
+  background-image: url("../img/another.png");
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.add {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
 }
