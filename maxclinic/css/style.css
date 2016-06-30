@@ -1030,6 +1030,18 @@ footer .phone .number {
   text-align: center;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  color: #404040;
+}
+
+h1 span {
+  color: #aa9475;
+  font-weight: 700;
+}
+
 .form_container {
   height: 520px;
   width: 930px;
