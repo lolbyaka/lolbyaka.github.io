@@ -1181,3 +1181,85 @@ input {
   font-size: 14px;
   color: #976945;
 }
+
+.m_form {
+  width: 275px;
+  height: 320px;
+  background-color: #fff;
+  border: 7px solid #ead7c0;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  display: none;
+  opacity: 0;
+  z-index: 5;
+  text-align: center;
+}
+
+.m_form h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #a08967;
+}
+
+.m_form input {
+  margin-top: 30px;
+}
+
+.m_form p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.m_form p span {
+  font-weight: bold;
+  color: #71625b;
+}
+
+.m_overlay {
+  z-index: 3;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.percent {
+  height: 65px;
+  background-color: #f8f1e9;
+  margin: 0;
+  text-align: center;
+}
+
+.p_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #56534f;
+  padding-top: 10px;
+}
+
+.p_block {
+  margin: 7px auto;
+  background-color: #ead7c0;
+  width: 222px;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.p_block .p_line {
+  width: 80%;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #a37749;
+}

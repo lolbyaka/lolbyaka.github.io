@@ -66,7 +66,7 @@
                 <div class="old_price">5 415</div>
                 <div class="new_price">3790</div>
               </div>
-              <button type="button" name="button">Купить со скидкой</button>
+              <button type="button" id="go" name="button">Купить со скидкой</button>
               <div class="promo_add">*при заказе до 26/06</div>
             </div>
           </div>
@@ -165,7 +165,7 @@
                 <div class="old_price">5 415</div>
                 <div class="new_price">3790</div>
               </div>
-              <button type="button" name="button">Купить со скидкой</button>
+              <button type="button" id="go" name="button">Купить со скидкой</button>
               <div class="promo_add">*при заказе до 26/06</div>
             </div>
           </div>
@@ -516,7 +516,7 @@
                 <div class="down" id="down">▼</div>
               </div>
             </div>
-            <button type="button" name="button">Купить по акции</button>
+            <button type="button" id="go" name="button">Купить по акции</button>
             <div class="text_adv_form">Подходит для всех типов кожи</div>
           </form>
         </div>
@@ -545,5 +545,21 @@
       </div>
     </footer>
 
+    <div id="modal_form" class="m_form"><!-- Сaмo oкнo -->
+      <h1>ПОЧТИ ВСЁ!</h1>
+      <div class="percent">
+        <div class="p_text">Готово 80%</div>
+        <div class="p_block">
+          <div class="p_line"></div>
+        </div>
+      </div>
+      <input type="text" name="phone" value="" placeholder="Ваш телефон">
+      <button type="button" id="button" name="button">Купить со скидкой</button>
+      <p>Осталось <span>менее 10</span> шт.</p>
+    </div>
+    <div id="overlay" class="m_overlay"></div><!-- Пoдлoжкa -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/site.js"></script>
   </body>
+
 </html>
