@@ -1023,3 +1023,149 @@ footer .phone .number {
 .d_right {
   float: right;
 }
+
+/* ПОСЛЕДНЯЯ СЕКЦИЯ */
+.last_section {
+  height: 605px;
+  text-align: center;
+}
+
+.form_container {
+  height: 520px;
+  width: 930px;
+  background-image: url("../img/last_screen.png");
+  background-size: 80%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.form_container form {
+  height: 230px;
+  width: 330px;
+  float: right;
+  margin-top: 120px;
+  margin-right: 123px;
+}
+
+.form_container form input {
+  margin-top: 25px;
+}
+
+.form_container form button {
+  margin-top: 10px;
+}
+
+input {
+  width: 235px;
+  height: 35px;
+  border: 2px solid #71625b;
+  border-radius: 19px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #56534f;
+}
+
+.price {
+  margin: 0;
+}
+
+.new_price {
+  font-size: 25px;
+}
+
+.new_price::after {
+  width: 15px;
+  height: 18px;
+}
+
+.price_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #56534f;
+}
+
+.price_1 {
+  display: inline-block;
+  width: 150px;
+}
+
+.price_2 {
+  display: inline-block;
+  width: 150px;
+}
+
+.price_2 .old_price::before {
+  content: none;
+}
+
+.price_text_0 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #787673;
+  display: inline-block;
+  width: 75px;
+  line-height: 29px;
+}
+
+.old_price {
+  display: inline-block;
+  width: 60px;
+}
+
+.count {
+  margin-top: 10px;
+}
+
+.count_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  color: #56534f;
+  line-height: 25px;
+}
+
+.count_number {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #8f6238;
+  line-height: 25px;
+}
+
+.count_control {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: #56534f;
+  line-height: 14px;
+}
+
+.up {
+  display: block;
+  margin: 0;
+}
+
+.down {
+  display: block;
+  margin: 0;
+}
+
+.text_adv_form {
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #976945;
+}
