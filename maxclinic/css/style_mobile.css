@@ -7,7 +7,7 @@ body {
   background-color: #fff;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .container {
     margin: auto;
     width: 320px;
@@ -1059,12 +1059,18 @@ body {
     line-height: 14px;
   }
   .up {
-    display: block;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     margin: 0;
+    user-select: none;
   }
   .down {
-    display: block;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
     margin: 0;
+    user-select: none;
   }
   .text_adv_form {
     margin-top: 25px;
