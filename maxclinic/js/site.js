@@ -31,7 +31,7 @@ $(document).ready(function() {
     $('.count_number').text(count);
   });
   $(button_popup).click( function(event){
-    window.location.href = "../pay/";
+    window.location.href = "../maxclinic/pay/";
   });
 
 	$('#overlay').click( function(){
