@@ -30,6 +30,9 @@ $(document).ready(function() {
     }
     $('.count_number').text(count);
   });
+  $(button_popup).click( function(event){
+    window.location.href = "../pay/";
+  });
 
 	$('#overlay').click( function(){
 		$('#modal_form')
