@@ -342,6 +342,7 @@ button {
 .secrets_img {
   margin-top: -95px;
   float: right;
+  height: 500px
 }
 
 /* ---FOOTER--- */
@@ -787,13 +788,24 @@ footer .phone .number {
   margin-bottom: 50px;
 }
 
-.rew img {
+
+
+.rew .img_block{
+  position: relative;
   height: 130px;
   width: 130px;
-  border-radius: 100%;
   float: left;
   margin-left: 15px;
   margin-top: 25px;
+}
+
+.rew .img_block img {
+  position: absolute;
+  max-height: 130px;
+  max-width: 130px;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
 }
 
 .rew .rew_block {
@@ -801,6 +813,7 @@ footer .phone .number {
   float: right;
   margin-top: 20px;
 }
+
 
 .rew .rew_name {
   float: left;
@@ -1108,6 +1121,10 @@ input {
   font-weight: 600;
   font-size: 16px;
   color: #56534f;
+}
+
+input:focus{
+  outline: none;
 }
 
 .price {
