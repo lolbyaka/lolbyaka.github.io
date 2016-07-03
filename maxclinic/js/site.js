@@ -2,7 +2,44 @@ var count = 1;
     now = new Date();
     day = ""+now.getDate();
     mounth = ""+(now.getMonth()+1);
+    cimg=1;
+    cimg_1=1;
+
+    function checkForm(form){
+        if (document.getElementById('phone').value=="") {
+            return false;
+        };
+        return true;
+    };
+
 $(document).ready(function() {
+  setInterval(function(){
+    if(cimg === 0){
+      $('#img_0').fadeOut("slow");
+      $('#img_1').fadeIn("slow");
+      cimg=1;
+    }
+    else{
+      $('#img_0').fadeIn("slow");
+      $('#img_1').fadeOut("slow");
+      cimg=0;
+    }
+  }, 7000);
+  setInterval(function(){
+    if(cimg_1 === 0){
+      $('#img_2').fadeOut("slow");
+      $('#img_3').fadeIn("slow");
+      cimg_1=1;
+    }
+    else{
+      $('#img_2').fadeIn("slow");
+      $('#img_3').fadeOut("slow");
+      cimg_1=0;
+    }
+  }, 5000);
+  jQuery(function($){
+   $("#phone").mask("+8 (999) 999-99-99");
+  });
   if(day.length==1){
     day = "0"+day;
   }
