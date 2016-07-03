@@ -277,6 +277,7 @@ button {
   font-weight: bold;
   font-size: 18px;
   color: #fff;
+  cursor: pointer;
 }
 
 .promo_add {
@@ -289,7 +290,7 @@ button {
 
 /* ---SECOND-SECTION--- */
 .three_secrets {
-  height: 388px;
+  height: 490px;
   background-color: #fff;
 }
 
@@ -334,7 +335,7 @@ button {
 }
 
 .block_add {
-  height: 335px;
+  height: 440px;
   background-color: #966941;
 }
 
@@ -788,6 +789,8 @@ footer .phone .number {
 
 .rew img {
   height: 130px;
+  width: 130px;
+  border-radius: 100%;
   float: left;
   margin-left: 15px;
   margin-top: 25px;
@@ -1197,6 +1200,7 @@ input {
   width: 20px;
   height: 20px;
   margin: 0;
+  cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -1208,6 +1212,7 @@ input {
   height: 20px;
   display: inline-block;
   margin: 0;
+  cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

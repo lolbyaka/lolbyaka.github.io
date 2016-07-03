@@ -9,7 +9,8 @@ $(document).ready(function() {
   if(mounth.length==1){
     mounth = "0"+mounth;
   }
-  $('.promo_add').text("*при заказе до "+day+"/"+mounth)
+  $('.promo_add').text("*при заказе до "+day+"/"+mounth);
+  $('.d_date').text("*при заказе до "+day+"/"+mounth +"- доставка бесплатно");
   $(go).click( function(event){
 		$('#overlay').fadeIn(400,
 		 	function(){
@@ -18,10 +19,11 @@ $(document).ready(function() {
 					.animate({opacity: 1, top: '50%'}, 200);
 		});
 	});
-
   $(".up").click(function(){
     count++;
     $('.count_number').text(count);
+    var url = "/pay/index.html?count="+count;
+    $('.lsc_form').attr("action",url);
   });
   $(".down").click(function(){
     count--;
@@ -29,11 +31,9 @@ $(document).ready(function() {
       count = 1;
     }
     $('.count_number').text(count);
+    var url = "/pay/index.html?count="+count;
+    $('.lsc_form').attr("action",url);
   });
-  $(button_popup).click( function(event){
-    window.location.href = "../maxclinic/pay/";
-  });
-
 	$('#overlay').click( function(){
 		$('#modal_form')
 			.animate({opacity: 0, top: '45%'}, 200,

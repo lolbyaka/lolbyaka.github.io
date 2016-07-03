@@ -1,0 +1,234 @@
+[Tue Jun 21 20:27:32 2016] [error] [client 178.120.137.128] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Tue Jun 21 22:27:30 2016] [error] [client 5.167.170.25] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Wed Jun 22 05:15:20 2016] [error] [client 212.193.117.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Thu Jun 23 04:38:35 2016] [error] [client 188.163.107.139] script '/var/www/user3/maxclinic-lifting-stick.ru/wp-login.php' not found or unable to stat, referer: http://maxclinic-lifting-stick.ru/wp-login.php
+[Thu Jun 23 04:38:35 2016] [error] [client 188.163.107.139] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/administrator, referer: http://maxclinic-lifting-stick.ru/administrator/
+[Sat Jun 25 15:31:53 2016] [error] [client 91.76.148.168] script '/var/www/user3/maxclinic-lifting-stick.ru/admin.php' not found or unable to stat
+[Mon Jun 27 03:15:20 2016] [error] [client 185.58.204.197] script '/var/www/user3/maxclinic-lifting-stick.ru/version.php' not found or unable to stat
+[Mon Jun 27 03:15:21 2016] [error] [client 185.58.204.197] script '/var/www/user3/maxclinic-lifting-stick.ru/version.php' not found or unable to stat, referer: http://maxclinic-lifting-stick.ru/
+[Mon Jun 27 03:15:23 2016] [error] [client 185.58.204.197] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/tds, referer: http://maxclinic-lifting-stick.ru/
+[Mon Jun 27 03:15:23 2016] [error] [client 185.58.204.197] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/tds, referer: http://maxclinic-lifting-stick.ru/
+[Wed Jun 29 05:18:30 2016] [error] [client 212.193.117.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Wed Jun 29 17:55:08 2016] [error] [client 5.139.108.33] script '/var/www/user3/maxclinic-lifting-stick.ru/wp-login.php' not found or unable to stat
+[Wed Jun 29 17:55:08 2016] [error] [client 5.139.108.33] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/administrator
+[Wed Jun 29 17:55:09 2016] [error] [client 5.139.108.33] script '/var/www/user3/maxclinic-lifting-stick.ru/admin.php' not found or unable to stat
+[Thu Jun 30 05:20:28 2016] [error] [client 212.47.195.52] script '/var/www/user3/maxclinic-lifting-stick.ru/admin.php' not found or unable to stat
+[Thu Jun 30 05:20:28 2016] [error] [client 212.47.195.52] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/administrator
+[Thu Jun 30 05:20:28 2016] [error] [client 212.47.195.52] script '/var/www/user3/maxclinic-lifting-stick.ru/wp-login.php' not found or unable to stat
+[Thu Jun 30 10:02:15 2016] [error] [client 169.53.51.180] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/administrator
+[Thu Jun 30 10:02:19 2016] [error] [client 169.53.51.180] script '/var/www/user3/maxclinic-lifting-stick.ru/admin.php' not found or unable to stat
+[Thu Jun 30 10:02:20 2016] [error] [client 169.53.51.180] script '/var/www/user3/maxclinic-lifting-stick.ru/wp-login.php' not found or unable to stat
+[Fri Jul 01 00:59:37 2016] [error] [client 79.143.231.21] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Fri Jul 01 16:13:23 2016] [error] [client 212.193.117.245] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/robots.txt
+[Fri Jul 01 16:29:30 2016] [error] [client 178.137.0.63] script '/var/www/user3/maxclinic-lifting-stick.ru/admin.php' not found or unable to stat
+[Fri Jul 01 16:29:30 2016] [error] [client 178.137.0.63] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/administrator
+[Fri Jul 01 16:29:30 2016] [error] [client 178.137.0.63] script '/var/www/user3/maxclinic-lifting-stick.ru/wp-login.php' not found or unable to stat
+[Fri Jul 01 20:38:10 2016] [error] [client 148.251.223.21] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/robots.txt
+[Fri Jul 01 21:16:00 2016] [error] [client 176.120.43.150] script '/var/www/user3/maxclinic-lifting-stick.ru/wp-login.php' not found or unable to stat
+[Fri Jul 01 21:16:01 2016] [error] [client 176.120.43.150] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/administrator
+[Fri Jul 01 21:16:01 2016] [error] [client 176.120.43.150] script '/var/www/user3/maxclinic-lifting-stick.ru/admin.php' not found or unable to stat
+[Sat Jul 02 16:31:51 2016] [error] [client 85.140.2.255] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 16:40:10 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 16:45:10 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 16:50:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 16:55:10 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:00:13 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:05:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:10:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:15:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:20:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:25:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:30:29 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:35:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:40:09 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:45:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:50:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 17:55:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:00:09 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:00:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:00:24 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/css, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/css, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/logo.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/js, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/js, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/second_screen_bullet.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/second_screen_girl.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_6.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_0.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:35 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:36 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:36 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:36 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:36 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:36 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_stick_image.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_another_image.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/rew_author.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/how_to_use_stick.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:37 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:38 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:38 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_6.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:38 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_7.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:38 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_8.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:38 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/logo_footer.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:38 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/footer_icon_phone.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:01:40 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/css, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/js, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/css, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/logo.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/js, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/second_screen_bullet.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/second_screen_girl.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_6.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_0.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:09 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_stick_image.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_another_image.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/rew_author.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/how_to_use_stick.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/css, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/css, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/logo.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/js, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:10 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/js, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/second_screen_bullet.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/second_screen_girl.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_0.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/step_1_img_6.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:12 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_icon_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_stick_image.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/section_5_another_image.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/rew_author.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/how_to_use_stick.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_1.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_2.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_3.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_4.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:14 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_5.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:14 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_6.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:14 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_7.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:14 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/htu_step_8.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:14 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/logo_footer.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:14 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/img/footer_icon_phone.png, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:02:15 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:04:23 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:04:23 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:04:25 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:04:46 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:05:07 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:05:14 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:05:21 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 18:05:21 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 18:05:21 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 18:09:43 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 18:09:47 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:09:59 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:09:59 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:10:00 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:10:06 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:10:08 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:10:13 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:10:16 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:10:30 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:10:31 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:10:38 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:11:18 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:15:09 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:15:21 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:15:21 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:15:22 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 18:15:25 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:15:29 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=6
+[Sat Jul 02 18:15:29 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:15:30 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=6
+[Sat Jul 02 18:15:30 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=6
+[Sat Jul 02 18:15:42 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:16:11 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:17:20 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:17:31 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:18:22 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:18:23 2016] [error] [client 81.25.169.44] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:18:26 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=1
+[Sat Jul 02 18:18:26 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=1
+[Sat Jul 02 18:18:26 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=1
+[Sat Jul 02 18:18:35 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:20:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:25:07 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:27:46 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 18:29:13 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Sat Jul 02 18:29:45 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 18:29:45 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 18:29:46 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Sat Jul 02 18:30:07 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:35:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:37:29 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=6
+[Sat Jul 02 18:37:29 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=6
+[Sat Jul 02 18:37:30 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=6
+[Sat Jul 02 18:40:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:45:08 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:50:07 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 18:55:07 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:00:07 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:05:06 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:10:06 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:15:06 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:20:06 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:25:06 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:30:05 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:35:05 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:40:06 2016] [error] [client 81.177.31.162] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/w1_186250087978.txt
+[Sat Jul 02 19:41:39 2016] [error] [client 83.221.210.14] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Sat Jul 02 19:41:39 2016] [error] [client 83.221.210.14] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Sat Jul 02 19:42:00 2016] [error] [client 83.221.210.14] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=2
+[Sat Jul 02 19:42:00 2016] [error] [client 83.221.210.14] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=2
+[Sat Jul 02 20:09:28 2016] [error] [client 66.102.9.71] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico
+[Sat Jul 02 20:09:35 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 20:09:40 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=1
+[Sat Jul 02 20:09:40 2016] [error] [client 178.120.154.113] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=1
+[Sat Jul 02 21:31:45 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 21:31:54 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 21:31:54 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 21:31:54 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 21:32:26 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 21:39:41 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 21:39:41 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 21:39:42 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 21:40:02 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 21:40:18 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=10
+[Sat Jul 02 21:40:18 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=10
+[Sat Jul 02 21:40:18 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=10
+[Sat Jul 02 22:12:35 2016] [error] [client 178.120.33.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 22:12:35 2016] [error] [client 178.120.33.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html
+[Sat Jul 02 23:06:29 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 23:08:31 2016] [error] [client 85.140.3.41] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 23:27:22 2016] [error] [client 178.120.33.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/
+[Sat Jul 02 23:27:25 2016] [error] [client 178.120.33.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/jquery.min.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 23:27:25 2016] [error] [client 178.120.33.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/pay/js/site.js, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
+[Sat Jul 02 23:27:26 2016] [error] [client 178.120.33.227] File does not exist: /var/www/user3/maxclinic-lifting-stick.ru/favicon.ico, referer: http://maxclinic-lifting-stick.ru/pay/index.html?count=4
