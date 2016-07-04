@@ -4,7 +4,7 @@ var count = 1;
     mounth = ""+(now.getMonth()+1);
     cimg=1;
     cimg_1=1;
-
+    serc=0;
     function checkForm(form){
         if (document.getElementById('phone').value=="") {
             return false;
@@ -38,7 +38,8 @@ $(document).ready(function() {
     }
   }, 5000);
   jQuery(function($){
-   $("#phone").mask("+8 (999) 999-99-99");
+   $("#phone").mask("9 (999) 999-99-99");
+   $("#phone_popup").mask("9 (999) 999-99-99");
   });
   if(day.length==1){
     day = "0"+day;
@@ -79,5 +80,20 @@ $(document).ready(function() {
 					$('#overlay').fadeOut(400);
 				}
 			);
+	});
+  $(".serc_img").click(function(){
+	  	var img = $(this);
+		var src = img.attr('src');
+		$("body").append("<div class='popup'>"+
+						 "<div class='popup_bg close'></div>"+
+						 "<img src='"+src+"' class='popup_img close' />"+
+						 "</div>");
+		$(".popup").fadeIn(300);
+		$(".close").click(function(){
+			$(".popup").fadeOut(300);
+			setTimeout(function() {
+			  $(".popup").remove();
+			}, 200);
+		});
 	});
 });

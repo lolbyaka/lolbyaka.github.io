@@ -545,14 +545,7 @@ footer .phone .number {
 
 .video_block {
   float: left;
-  margin-top: 20px;
-}
-
-.video_block h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 21px;
-  color: #404040;
+  margin-top: 90px;
 }
 
 .step {
@@ -989,6 +982,44 @@ footer .phone .number {
   background-size: contain;
   background-repeat: no-repeat;
   height: 420px;
+  position: relative;
+}
+.serc_img {
+  width: 256px;
+  height: 364px;
+  left: 352px;
+  top: 42px;
+  position: absolute;
+  cursor:pointer;
+}
+
+.popup {
+	position: fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:fixed;
+	z-index:1;
+	height:100%;
+	width:100%;
+}
+
+
+.popup_img {
+	position: fixed;
+  cursor: pointer;
+	z-index:2;
+  width: 492px;
+  height: 708px;
+  left: 50%;
+  margin-left: -256px;
 }
 
 .scince_container .left_sc {
