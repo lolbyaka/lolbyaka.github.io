@@ -47,8 +47,10 @@ $(document).ready(function() {
   if(mounth.length==1){
     mounth = "0"+mounth;
   }
-  $('.promo_add').text("*при заказе до "+day+"/"+mounth);
-  $('.d_date').text("*при заказе до "+day+"/"+mounth +"- доставка бесплатно");
+  //$('.promo_add').text("*при заказе до "+day+"/"+mounth);
+  var str = "при заказе до "+day+"/"+mounth;
+  $('.promo_add_2').text(str);
+  $('.d_date').text("*при заказе до "+day+"/"+mounth+"- доставка бесплатно");
   $(go).click( function(event){
 		$('#overlay').fadeIn(400,
 		 	function(){

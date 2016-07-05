@@ -206,6 +206,8 @@ header .navigation {
   font-weight: 500;
   font-size: 14px;
   color: #535353;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .price {
@@ -282,8 +284,14 @@ button {
 
 .promo_add {
   font-family: "Roboto", sans-serif;
-  margin-top: 10px;
-  font-weight: 400;
+  margin-top: 5px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #7a7a7a;
+}
+.promo_add_2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
   font-size: 13px;
   color: #7a7a7a;
 }
@@ -523,15 +531,6 @@ footer .phone .number {
   text-align: center;
 }
 
-.in_action h2::after {
-  content: "";
-  margin: 15px auto 0 auto;
-  display: block;
-  position: relative;
-  width: 140px;
-  height: 6px;
-  background-color: #ead7c0;
-}
 
 .in_action .promo_discount {
   -webkit-filter: drop-shadow(1px 0px 2px rgba(0, 0, 0, 0.15));
@@ -612,8 +611,8 @@ footer .phone .number {
 
 .efficiency p {
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
   color: #535353;
 }
 
@@ -1107,9 +1106,19 @@ footer .phone .number {
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-size: 27px;
-  color: #404040;
+  font-weight: 800;
+  font-size: 31px;
+  color: #987754;
+}
+
+.last_section h1::after{
+  content: "";
+  margin: 15px auto 0 auto;
+  display: block;
+  position: relative;
+  width: 140px;
+  height: 6px;
+  background-color: #ead7c0;
 }
 
 h1 span {
