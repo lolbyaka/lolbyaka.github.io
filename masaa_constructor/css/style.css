@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  background-image: url(../img/header_bg_img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+  width: 100%;
+}
+header h1 {
+  font-size: 29px;
+  margin: 160px auto 0 auto;
+  text-shadow: 0px 2px 3px rgba(0, 0, 2, 0.7);
+}
+header p {
+  margin: 5px auto 0 auto;
+  width: 50%;
+  font-size: 19px;
+  text-shadow: 0px 2px 1px rgba(0, 0, 2, 0.7);
+}
+
+.navigation {
+  padding-top: 35px;
+}
+.navigation a {
+  position: relative;
+}
+
+.logo {
+  float: left;
+}
+
+.head_logo {
+  width: 142px;
+}
+
+.logo_text {
+  color: #fff;
+  text-decoration: none;
+  left: 16px;
+  font-size: 12px;
+  top: 28px;
+  position: absolute;
+  width: 160px;
+}
+
+.user_area {
+  float: right;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 5px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.user_area::after {
+  content: "";
+  background-image: url(../img/user_area.png);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+.button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #ff7200;
+  padding: 13px 25px;
+  border-radius: 23.5px;
+  margin: 25px 0 0 0;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.timer_block {
+  width: 50%;
+  margin: 110px auto 0 auto;
+}
+
+.t_text {
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.timer_t {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 27px;
+  color: #525252;
+  font-weight: 700;
+  position: relative;
+}
+.timer_t:last-child {
+  margin-right: 0;
+}
+.timer_t::after {
+  content: "Hours";
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  top: 40px;
+  left: 10px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */

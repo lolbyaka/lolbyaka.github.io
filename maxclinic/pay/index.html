@@ -3,16 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>MaxClinic Lifting Stick</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="css/style_mobile.css" type="text/css"/>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <script language="javascript" type="text/javascript">
-        function OnLoad() {
-            var paramValue = window.location.href.split("?")[1].split("=")[1];
-            document.getElementById("params").innerHTML = "Ваш заказ на Лифтинг-стик Maxclinic"+"("+paramValue+" шт) " +" успешно оформлен!";
-        }
-    </script>
+    <meta name="w1-verification" content="140808392572"/>
   </head>
   <body onload="OnLoad()">
 
@@ -97,8 +89,16 @@
         </div>
       </div>
     </footer>
-
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style_mobile.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <script src="./js/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript">
+        function OnLoad() {
+            var paramValue = window.location.href.split("?")[1].split("=")[1];
+            document.getElementById("params").innerHTML = "Ваш заказ на Лифтинг-стик Maxclinic"+"("+paramValue+" шт) " +" успешно оформлен!";
+        }
+    </script>
     <script src="./js/site.js"></script>
   </body>
 

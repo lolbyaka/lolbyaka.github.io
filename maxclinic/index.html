@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>MaxClinic Lifting Stick</title>
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="w1-verification" content="140808392572"/>
   </head>
   <body>
 
@@ -54,7 +55,7 @@
             </div>
             <div class="bullet">
               <img src="./img/bullet_icon_1.png" alt="">
-              <p>Разглаживает морщины на лице и шее</p>
+              <p>Подтягивает кожу, делает упругой и эластичной</p>
             </div>
           </div>
           <div class="promo_discount">
@@ -79,7 +80,7 @@
     <section class="three_secrets">
       <div class="block_head">
         <div class="container">
-          <p>3 секрета лифтинг-стик  для Вашей молодости</p>
+          <p>3 секрета <span>лифтинг-стик</span> для Вашей молодости</p>
         </div>
       </div>
       <div class="block_add">
@@ -129,23 +130,19 @@
         <div class="defects">
           <div class="defect">
             <div class="before_after_img bai_0"></div>
-            <div class="main_text">Возрастная<br>ассиметрия лица</div>
-            <div class="descr">Точечный массаж делает кожу<br>упругой и эластичной.</div>
+            <div class="main_text">Возрастная ассиметрия лица</div>
           </div>
           <div class="defect">
             <div class="before_after_img bai_1"></div>
-            <div class="main_text">Тусклый и неровный<br>цвет лица</div>
-            <div class="descr">Точечный массаж делает кожу<br>упругой и эластичной</div>
+            <div class="main_text">Тусклый и неровный цвет лица</div>
           </div>
           <div class="defect">
             <div class="before_after_img bai_2"></div>
-            <div class="main_text">Морщины и дряблая <br>кожа</div>
-            <div class="descr">Точечный массаж делает кожу<br>упругой и эластичной.</div>
+            <div class="main_text">Морщины и дряблая кожа</div>
           </div>
           <div class="defect">
             <div class="before_after_img bai_3"></div>
-            <div class="main_text">Сухая и стянутая <br>кожа</div>
-            <div class="descr">Точечный массаж делает кожу<br>упругой и эластичной.</div>
+            <div class="main_text">Сухая и стянутая кожа</div>
           </div>
         </div>
       </div>
@@ -156,7 +153,7 @@
     <section class="in_action">
       <div class="container">
         <div class="head_text">
-          <h2>Лифтинг стик в действии</h2>
+          <h2><span>Лифтинг стик</span> в действии</h2>
           <p>эффективен для всех типов кожи</p>
         </div>
         <div class="in_action_container">
@@ -218,7 +215,7 @@
       <div class="container">
         <div class="container_0">
           <div class="head_text">
-            <h2>Почему лифтинг-стик эффективен</h2>
+            <h2>Почему <span>лифтинг-стик</span> эффективен</h2>
             <p>*подходит для любого типа кожи</p>
           </div>
       </div>
@@ -290,7 +287,7 @@
     <div class="container_2">
       <div class="stick">
         <img src="./img/section_5_stick_image.png" alt="">
-        <div class="stick_name">Maxclinic Lifting Stik</div>
+        <div id="go" class="stick_name">Maxclinic Lifting Stik</div>
       </div>
       <div class="another_facilities">
         <img src="./img/section_5_another_image.png" alt="">
@@ -445,7 +442,7 @@
       <div class="container">
         <div class="container_0">
           <div class="head_text">
-            <h2>Научно доказано: полное преображение кожи</h2>
+            <h2><span>Научно доказано:</span> полное преображение кожи</h2>
             <p>Эффективность подтверждена 12 видами клинических тестов*</p>
           </div>
         </div>
@@ -481,7 +478,7 @@
       <div class="container">
         <div class="container_0">
           <div class="head_text">
-            <h2>Доставка в любой регион РОССИИ</h2>
+            <h2>Доставка в любой регион <span>РОССИИ</span></h2>
             <p class="d_date">*при заказе до 26/06 - доставка бесплатно</p>
           </div>
         </div>
@@ -502,8 +499,9 @@
     <section class="last_section">
       <div class="container">
         <H1>ЗАКАЗЫВАЙТЕ <span>MAXCLINIC LIFTING STICK</span><br>СО СКИДКОЙ 30%</H1>
+        <p class="ls_delivery">+Бесплатная доставка до 22/07</p>
         <div class="form_container">
-          <form class="lsc_form" action="./pay/index.html?count=1" method="post">
+          <form class="lsc_form" action="./pay/index.html?count=1" onsubmit="return (ValidPhone())" method="post">
             <div class="price_1">
               <div class="price_text">Стоимость 1 стика:</div>
               <div class="price">
@@ -520,7 +518,7 @@
               <div class="price_text_0">Экономия</div>
               <div class="old_price">1 400</div>
             </div>
-            <input type="text" name="phone" id="phone" value="" placeholder="Ваш телефон" required>
+            <input type="text" name="phone" id="phone"  value="" pattern="^([+]?[0-9\s-\(\)]{6,25})*$" placeholder="Ваш телефон" required>
             <div class="count">
               <div class="count_text">Количество:</div>
               <div class="count_number">1</div>
@@ -558,7 +556,7 @@
       </div>
     </footer>
 
-    <form id="modal_form" class="m_form"  action="./pay/index.html?count=1" method="post"><!-- Сaмo oкнo -->
+    <form id="modal_form" class="m_form"  action="./pay/index.html?count=1"  method="post"><!-- Сaмo oкнo -->
       <h1>ПОЧТИ ВСЁ!</h1>
       <div class="percent">
         <div class="p_text">Готово 80%</div>
@@ -566,7 +564,7 @@
           <div class="p_line"></div>
         </div>
       </div>
-      <input type="text" name="phone" id="phone_popup" value="" placeholder="Ваш телефон" required>
+      <input type="text" name="phone" id="phone" value="" pattern="^([+]?[0-9\s-\(\)]{6,25})*$" placeholder="Ваш телефон" required>
       <button type="submit" id="button_popup" name="button">Купить со скидкой</button>
       <p>Осталось <span>менее 10</span> шт.</p>
     </form>

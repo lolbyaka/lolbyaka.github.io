@@ -127,7 +127,7 @@ header .navigation {
 }
 
 .promo_text h1 span {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 31px;
   color: #987754;
   text-transform: uppercase;
@@ -298,17 +298,22 @@ button {
 
 /* ---SECOND-SECTION--- */
 .three_secrets {
-  height: 490px;
+  height: 535px;
   background-color: #fff;
 }
 
 .block_head p {
+  width: 60%;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 28px;
   color: #816950;
+  text-transform: uppercase;
 }
 
+.block_head p span{
+  color: #404040;
+}
 .head {
   padding-top: 30px;
 }
@@ -343,7 +348,7 @@ button {
 }
 
 .block_add {
-  height: 440px;
+  height: 460px;
   background-color: #966941;
 }
 
@@ -433,9 +438,13 @@ footer .phone .number {
 .head_text h2 {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 28px;
   color: #836c53;
+  text-transform: uppercase;
+}
+.head_text h2 span{
+  color: #404040;
 }
 
 .head_text p {
@@ -461,6 +470,7 @@ footer .phone .number {
   display: inline-block;
   margin-right: 20px;
   margin-top: 60px;
+  vertical-align: top;
 }
 
 .defect:last-child {
@@ -510,7 +520,7 @@ footer .phone .number {
 .main_text {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #ab794a;
   text-align: left;
   margin-top: 15px;
@@ -611,9 +621,9 @@ footer .phone .number {
 
 .efficiency p {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: #535353;
+  font-weight: 400;
+  font-size: 19px;
+  color: #404040;
 }
 
 .efficiency .container_1 {
@@ -724,6 +734,7 @@ footer .phone .number {
   font-weight: 500;
   font-size: 19px;
   color: #fff;
+  cursor: pointer;
 }
 
 .another_name {
@@ -758,9 +769,10 @@ footer .phone .number {
 
 .reviews h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 25px;
-  color: #ad9777;
+  font-weight: 600;
+  font-size: 28px;
+  color: #836c53;
+  text-transform: uppercase;
 }
 
 .reviews h2::after {
@@ -1100,8 +1112,18 @@ footer .phone .number {
 
 /* ПОСЛЕДНЯЯ СЕКЦИЯ */
 .last_section {
-  height: 605px;
+  height: 695px;
   text-align: center;
+}
+
+.last_section h1 {
+  color: #404040;
+}
+.last_section p {
+  margin-top: -60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 h1 {
@@ -1113,7 +1135,7 @@ h1 {
 
 .last_section h1::after{
   content: "";
-  margin: 15px auto 0 auto;
+  margin: 30px auto 0 auto;
   display: block;
   position: relative;
   width: 140px;
@@ -1148,7 +1170,7 @@ h1 span {
 }
 
 .form_container form button {
-  margin-top: 10px;
+  margin-top: -12px;
 }
 
 input {
@@ -1246,6 +1268,7 @@ input:focus{
   display: inline-block;
   vertical-align: middle;
   font-family: "Roboto", sans-serif;
+  margin-top: 15px;
   font-weight: 500;
   font-size: 11px;
   color: #56534f;
@@ -1254,26 +1277,21 @@ input:focus{
 
 .up {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   margin: 0;
+  font-size: 20px;
+  user-select: none;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
-
 .down {
+  cursor: pointer;
   width: 20px;
   height: 20px;
   display: inline-block;
   margin: 0;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  font-size: 20px;
+  user-select: none;
 }
 
 .text_adv_form {
