@@ -13,6 +13,8 @@ body
   margin: auto
   text-align: center
 
+/* Шапка */
+
 header
   background-image: url(../img/header_bg_img.jpg)
   background-size: cover
@@ -28,14 +30,18 @@ header
     width: 50%
     font-size: 19px
     text-shadow: 0px 2px 1px rgba(0, 0, 2, 0.7)
+
 .navigation
   padding-top: 35px
   a
     position: relative
+
 .logo
   float: left
+
 .head_logo
   width: 142px
+
 .logo_text
   color: #fff
   text-decoration: none
@@ -44,6 +50,7 @@ header
   top: 28px
   position: absolute
   width: 160px
+
 .user_area
   float: right
   font-weight: 500
@@ -66,6 +73,7 @@ header
     margin-right: 10px
     margin-left: 10px
     border-radius: 100%
+
 .button
   color: #fff
   font-weight: 500
@@ -82,10 +90,12 @@ header
 .timer_block
   width: 50%
   margin: 110px auto 0 auto
+
 .t_text
   font-size: 18px
   font-weight: 700
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9)
+
 .timer_t
   display: inline-block
   margin-top: 15px
@@ -110,3 +120,357 @@ header
     left: 10px
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7)
     position: absolute
+
+/* Вторая секция */
+.second_section
+  padding: 45px 0
+  background-image: linear-gradient( to right, #e4e4e4 0%, #fff 100%)
+
+  .whats_get
+    width: 50%
+    margin: 0 0 0 50%
+    position: relative
+    h2
+      margin-left: 10px
+      color: #414141
+      font-size: 25px
+      font-weight: 700
+      text-align: left
+      width: 70%
+      position: relative
+      &::after
+        content: ""
+        width: 75px
+        height: 5px
+        background-color: #d4810c
+        position: relative
+        margin: 20px 0
+.bullet
+  text-align: left
+  margin-top: 15px
+
+  img
+    display: inline-block
+    width: 18px
+    height: auto
+    margin-right: 5px
+    vertical-align: top
+    margin-top: 2px
+  .bullet_text
+    line-height: 18px
+    display: inline-block
+    color: #525252
+    font-size: 15px
+    font-weight: 500
+    text-align: left
+    width: 80%
+    vertical-align: super
+
+.second_section_line
+  margin-top: 40px
+  width: 100%
+  height: 80px
+  color: #414141
+  background-color: #fff
+  position: relative
+  .discount_block
+
+    width: 430px
+    height: 480px
+    position: absolute
+    bottom: 0
+    .discont
+      width: 120px
+      height: 80px
+      background-color: #ff7200
+      position: absolute
+      bottom: 0
+      border-radius: 5px 0 0 5px
+      .t
+        color: #fff
+        font-weight: 500
+        font-size: 13px
+        margin: 5px 0 0 18px
+        span
+          font-weight: 600
+          font-size: 43px
+      &::after
+        content: ""
+        width: 0
+        height: 0
+        position: absolute
+        left: 120px
+        top: 0
+        border-style: solid
+        border-width: 40px 0 40px 15px
+        border-color: transparent transparent transparent #ff7300
+.d_img
+  bottom: -28px
+  position: absolute
+  width: 450px
+  left: 20px
+
+.price_block
+  height: 80px
+  width: 480px
+  float: right
+  position: relative
+  a
+    display: inline-block
+    position: absolute
+    padding: 7px 25px
+    margin-top: 21px
+    left: 170px
+  .price
+    position: absolute
+    display: inline-block
+    width: 40%
+    height: 100%
+    left: 0
+    .price_text
+      margin-top: 20px
+      color: #414141
+      font-size: 13px
+      font-weight: 600
+    .old_price
+      display: inline-block
+      vertical-align: top
+      line-height: 12px
+      font-size: 14px
+      font-weight: 400
+      margin-top: 6px
+      color: #696969
+    .price_old_img
+      display: inline-block
+      top: 7px
+      left: -3px
+      position: relative
+      vertical-align: top
+    .new_price
+      margin-top: 5px
+      display: inline-block
+      color: #ec8200
+      font-size: 27px
+      font-weight: 600
+      line-height: 22px
+    .price_new_img
+      display: inline-block
+      top: 7px
+      left: -3px
+      position: relative
+      vertical-align: top
+
+/* Третья секция*/
+.third_section
+  background-color: #fff
+  padding: 45px 0
+h2
+  margin: 0 auto
+  color: #414141
+  font-size: 25px
+  font-weight: 700
+  text-align: center
+  width: 100%
+  position: relative
+  &::after
+    content: ""
+    width: 75px
+    height: 5px
+    background-color: #d4810c
+    position: relative
+    display: block
+    margin: 20px auto 30px auto
+
+.disk_content
+  width: 30%
+  height: 275px
+  position: relative
+  text-align: left
+  display: inline-block
+  .disk_content_img
+    width: 270px
+    height: 150px
+    border-radius: 4px
+    overflow: hidden
+    img
+      width: 100%
+      height: auto
+      top: -57px
+      position: relative
+  h3
+    width: 270px
+    color: #414141
+    font-size: 15px
+    font-weight: bold
+  p
+    width: 270px
+    color: #525252
+    font-size: 12px
+    font-weight: 400
+
+/* Четвертая секция */
+.guarantees
+  background-color: #eee
+  padding: 45px 0
+
+.result_block
+  width: 30%
+  height: 230px
+  border-radius: 4px
+  overflow: hidden
+  position: relative
+  display: inline-block
+  margin: 0 7px 14px 7px
+  h3
+    margin-left: 10px
+    position: absolute
+    bottom: 65px
+    text-shadow: 0px 2px 1px rgba(2, 2, 2, 0.75)
+    font-size: 19px
+    text-align: left
+  p
+    margin-left: 10px
+    position: absolute
+    bottom: 10px
+    text-align: left
+    text-shadow: 0px 2px 1px rgba(2, 2, 2, 0.75)
+.img-overlay
+  width: 100%
+  height: 100%
+  background: rgba(0,0,0,.45)
+  top: 0
+  left: 0
+  margin: 0
+  position: absolute
+
+
+/* Пятая секция */
+.bonus
+  padding: 45px 0
+  img
+    display: inline-block
+    position: relative
+    top: -24px
+    vertical-align: top
+    margin-right: 40px
+    width: 113px
+    height: 110px
+.bonus_description
+  min-height: 110px
+  position: relative
+.bonus_bullets
+  display: inline-block
+  position: relative
+  text-align: left
+  top: 0
+.b_bullet
+  font-size: 15px
+  color: #525252
+  &::before
+    content: ""
+    position: relative
+    display: inline-block
+    border-radius: 100%
+    background-color: #da6c00
+    width: 6px
+    height: 6px
+    margin-right: 10px
+    top: -3px
+
+
+
+/* Авторы */
+.author
+  padding: 45px 0
+
+.author_container
+  img
+    width: 200px
+    height: 200px
+    border-radius: 100%
+    display: inline-block
+    margin-right: 70px
+
+.author_bullets
+  display: inline-block
+  top: -50px
+  position: relative
+  text-align: left
+
+.author_name
+  padding: 10px 25px
+  background-color: #da6c00
+  font-size: 21px
+  font-weight: 700
+  color: #fff
+  min-width: 50px
+  max-width: 350px
+  display: inline-block
+  margin-bottom: 20px
+  text-align: center
+
+
+
+.price_table
+  background-color: #f7f7f7
+  padding: 45px 0
+
+.price_table_block
+  border-radius: 3px
+  background-color: #fff
+  box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
+  overflow: hidden
+  width: 274px
+  min-height: 366px
+  max-height: 800px
+
+.price_table_header
+  width: 100%
+  height: 50px
+  background-color: #858585
+  line-height: 50px
+  font-size: 21px
+  color: #fff
+  font-weight: bold
+  text-align: center
+  text-shadow: 0px 1px 1px rgba(2, 2, 2, 0.55)
+
+
+.price_block_container
+  width: 80%
+  left: 50%
+  margin-left: -40%
+  position: relative
+  display: block
+  text-align: left
+  padding-top: 20px
+
+.price_table_block
+  display: inline-block
+  margin: 0px 10px
+  .price_block
+    width: 100%
+    float: none
+    .price
+      position: relative
+      display: block
+      width: 100%
+      height: 60%
+      .old_price
+        font-size: 17px
+        text-decoration: line-through
+    a
+      display: block
+      position: relative
+      width: 100%
+      padding: 7px 0
+      margin: 20px 0 0 0
+      left: 0
+
+.bonus_price
+  margin-top: 36px
+  color: #525252
+  text-align: center
+  font-size: 13px
+  span
+    color: #c8610d
