@@ -39,7 +39,8 @@ body
       display: block
       width: 100%
       margin-top: 29px
-
+    .user_area
+      display: none
   .logo
     float: left
 
@@ -58,31 +59,7 @@ body
     display: block
     width: 160px
 
-  .user_area
-    float: right
-    display: block
-    width: 100%
-    margin: 33px auto 0 auto
-    font-weight: 500
-    font-size: 15px
-    margin-top: 5px
-    line-height: 30px
-    color: #fff
-    text-decoration: none
-    &::after
-      content: ""
-      background-image: url(../img/user_area.png)
-      background-repeat: none
-      background-position: center
-      background-size: cover
-      position: relative
-      display: inline-block
-      height: 30px
-      width: 30px
-      vertical-align: middle
-      margin-right: 10px
-      margin-left: 10px
-      border-radius: 100%
+
 
   .button
     color: #fff
@@ -106,30 +83,7 @@ body
     font-weight: 700
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9)
 
-  .timer_t
-    display: inline-block
-    margin-top: 15px
-    margin-right: 15px
-    border-radius: 3px
-    background-color: #fff
-    width: 54px
-    height: 54px
-    line-height: 54px
-    font-size: 27px
-    color: rgb(82, 82, 82)
-    font-weight: 700
-    position: relative
-    &:last-child
-      margin-right: 0
-    &::after
-      content: "Hours"
-      color: #fff
-      font-size: 12px
-      font-weight: 500
-      top: 40px
-      left: 10px
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7)
-      position: absolute
+
 
   /* Вторая секция */
   .second_section
@@ -273,6 +227,55 @@ body
     position: relative
     width: 100%
     left: 0
+  .price_block
+    height: 80px
+    width: 320px
+    float: right
+    position: relative
+    a
+      display: inline-block
+      position: absolute
+      padding: 7px 25px
+      margin-top: 21px
+      left: 170px
+    .price
+      position: absolute
+      display: inline-block
+      width: 40%
+      height: 100%
+      left: 0
+      .price_text
+        margin-top: 20px
+        color: #414141
+        font-size: 13px
+        font-weight: 600
+      .old_price
+        display: inline-block
+        vertical-align: top
+        line-height: 12px
+        font-size: 14px
+        font-weight: 400
+        margin-top: 6px
+        color: #696969
+      .price_old_img
+        display: inline-block
+        top: 7px
+        left: -3px
+        position: relative
+        vertical-align: top
+      .new_price
+        margin-top: 5px
+        display: inline-block
+        color: #ec8200
+        font-size: 27px
+        font-weight: 600
+        line-height: 22px
+      .price_new_img
+        display: inline-block
+        top: 7px
+        left: -3px
+        position: relative
+        vertical-align: top
 
 
   /* Третья секция*/
@@ -423,7 +426,7 @@ body
     font-weight: 700
     color: #fff
     min-width: 50px
-    max-width: 350px
+    max-width: 320px
     display: block
     margin-bottom: 25px
     text-align: center
@@ -504,7 +507,7 @@ body
     padding: 45px 0
     iframe
       display: inline-block
-      margin-right: 60px
+      margin-right: 0px
       width: 100%
       height: auto
 
@@ -512,7 +515,7 @@ body
     display: inline-block
     position: relative
     vertical-align: top
-    width: 333px
+    width: 320px
     text-align: center
     h2
       text-align: center
