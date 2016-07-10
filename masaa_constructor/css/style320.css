@@ -344,13 +344,18 @@ body {
     margin: 20px auto 30px auto;
   }
 
+  .disk_content_first {
+    position: relative;
+    top: -75px;
+  }
+
   .disk_content {
     width: 100%;
     height: 275px;
     position: relative;
     text-align: left;
     display: block;
-    margin: 20px auto 80px auto;
+    margin: 20px auto;
     top: 0;
   }
   .disk_content .disk_content_img {

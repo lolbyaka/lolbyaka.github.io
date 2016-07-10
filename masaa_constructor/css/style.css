@@ -21,7 +21,7 @@ header {
   background-image: url(../img/header_bg_img.jpg);
   background-size: cover;
   background-position: center;
-  height: 670px;
+  padding: 15px 0 45px 0;
   width: 100%;
 }
 header h1 {
