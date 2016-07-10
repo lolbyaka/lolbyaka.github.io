@@ -754,8 +754,8 @@ h2::after {
   height: 100%;
   left: 0;
   margin: auto;
-  text-align: left;
-  padding-left: 112px;
+  text-align: center;
+  padding-left: 0;
 }
 .free_block .price_block a {
   display: block;

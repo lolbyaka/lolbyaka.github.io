@@ -750,20 +750,25 @@ body {
     vertical-align: top;
   }
   .rew_type_4 .img_cont {
-    width: 430px;
-    height: 210px;
+    width: 100%;
+    height: 100%;
     background-color: #e3e3e3;
     overflow: hidden;
   }
   .rew_type_4 .img_cont img {
-    width: 430px;
-    height: auto;
+    width: auto;
+    height: 100%;
+    left: -70px;
+    margin: auto;
+    position: relative;
   }
 
   #owl-demo_2 .item img {
-    display: block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+    left: -70px;
+    margin: auto;
+    position: relative;
   }
 
   .free_block {
@@ -779,12 +784,12 @@ body {
   .free_block .price_block .price {
     position: relative;
     display: block;
-    width: 40%;
+    width: 50%;
     height: 100%;
     left: 0;
     margin: auto;
-    text-align: left;
-    padding-left: 112px;
+    text-align: center;
+    padding-left: 0;
   }
   .free_block .price_block a {
     display: block;
