@@ -133,20 +133,20 @@ body
 
   /* Вторая секция */
   .second_section
-    padding: 45px 0
+    padding: 45px 0 80px 0
     background-image: linear-gradient( to right, #e4e4e4 0%, #fff 100%)
-    display: none
+    display: block
     .whats_get
-      width: 50%
-      margin: 0 0 0 50%
+      width: 100%
+      margin: 0 auto
       position: relative
       h2
-        margin-left: 10px
+        margin-left: 0px
         color: #414141
         font-size: 25px
         font-weight: 700
-        text-align: left
-        width: 70%
+        text-align: center
+        width: 100%
         position: relative
         &::after
           content: ""
@@ -154,9 +154,9 @@ body
           height: 5px
           background-color: #d4810c
           position: relative
-          margin: 20px 0
+          margin: 20px auto
   .bullet
-    text-align: left
+    text-align: center
     margin-top: 15px
 
     img
@@ -177,18 +177,71 @@ body
       vertical-align: super
 
   .second_section_line
-    margin-top: 40px
+    margin-top: 395px
     width: 100%
     height: 80px
     color: #414141
     background-color: #fff
     position: relative
+    display: block
+    .price_block
+      height: 80px
+      width: 100%
+      float: right
+      top: -480px
+      position: relative
+      a
+        display: inline-block
+        position: absolute
+        padding: 7px 25px
+        margin-top: 21px
+        left: 0
+        position: relative
+      .price
+        position: relative
+        display: inline-block
+        width: 50%
+        height: 100%
+        left: 0
+        float: right
+        .price_text
+          margin-top: 20px
+          color: #414141
+          font-size: 13px
+          font-weight: 600
+        .old_price
+          display: inline-block
+          vertical-align: top
+          line-height: 12px
+          font-size: 14px
+          font-weight: 400
+          margin-top: 6px
+          color: #696969
+        .price_old_img
+          display: inline-block
+          top: 7px
+          left: -3px
+          position: relative
+          vertical-align: top
+        .new_price
+          margin-top: 5px
+          display: inline-block
+          color: #ec8200
+          font-size: 27px
+          font-weight: 600
+          line-height: 22px
+        .price_new_img
+          display: inline-block
+          top: 7px
+          left: -3px
+          position: relative
+          vertical-align: top
     .discount_block
 
-      width: 430px
+      width: 100%
       height: 480px
-      position: absolute
-      bottom: 0
+      position: relative
+      top: -400px
       .discont
         width: 120px
         height: 80px
@@ -214,61 +267,13 @@ body
           border-style: solid
           border-width: 40px 0 40px 15px
           border-color: transparent transparent transparent #ff7300
+
   .d_img
     bottom: -28px
-    position: absolute
-    width: 450px
-    left: 20px
-
-  .price_block
-    height: 80px
-    width: 480px
-    float: right
     position: relative
-    a
-      display: inline-block
-      position: absolute
-      padding: 7px 25px
-      margin-top: 21px
-      left: 170px
-    .price
-      position: absolute
-      display: inline-block
-      width: 40%
-      height: 100%
-      left: 0
-      .price_text
-        margin-top: 20px
-        color: #414141
-        font-size: 13px
-        font-weight: 600
-      .old_price
-        display: inline-block
-        vertical-align: top
-        line-height: 12px
-        font-size: 14px
-        font-weight: 400
-        margin-top: 6px
-        color: #696969
-      .price_old_img
-        display: inline-block
-        top: 7px
-        left: -3px
-        position: relative
-        vertical-align: top
-      .new_price
-        margin-top: 5px
-        display: inline-block
-        color: #ec8200
-        font-size: 27px
-        font-weight: 600
-        line-height: 22px
-      .price_new_img
-        display: inline-block
-        top: 7px
-        left: -3px
-        position: relative
-        vertical-align: top
+    width: 100%
+    left: 0
+
 
   /* Третья секция*/
   .third_section
