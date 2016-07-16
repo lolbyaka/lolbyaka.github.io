@@ -22,7 +22,6 @@ body {
     background-image: url(../img/header_bg_img.jpg);
     background-size: cover;
     background-position: center;
-    height: 670px;
     width: 100%;
   }
   header h1 {
@@ -164,6 +163,9 @@ body {
     float: right;
     top: -480px;
     position: relative;
+  }
+  .second_section_line .price_block .bonus_price {
+    display: none;
   }
   .second_section_line .price_block a {
     display: inline-block;
@@ -450,6 +452,13 @@ body {
     text-align: left;
     top: 0;
     margin-top: 35px;
+  }
+
+  .t_block img {
+    top: 0;
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
   }
 
   .b_bullet {

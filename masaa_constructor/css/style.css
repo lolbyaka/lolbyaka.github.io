@@ -56,38 +56,41 @@ header p {
 }
 
 .logo_text {
+  top: -5px;
   color: #fff;
-  text-decoration: none;
-  left: 201px;
-  font-size: 12px;
-  top: 83px;
-  position: absolute;
-  width: 160px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto;
+  position: relative;
+  width: 320px;
+}
+.logo_text span {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .user_area {
   float: right;
   font-weight: 500;
   font-size: 15px;
-  margin-top: 5px;
+  top: -42px;
   line-height: 30px;
   color: #fff;
   text-decoration: none;
 }
-.user_area::after {
+.user_area::before {
   content: "";
   background-image: url(../img/user_area.png);
   background-repeat: none;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   position: relative;
   display: inline-block;
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 20px;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 15px;
   margin-left: 10px;
-  border-radius: 100%;
 }
 
 .button {
@@ -152,6 +155,7 @@ header p {
   width: 50%;
   margin: 0 0 0 50%;
   position: relative;
+  min-height: 350px;
 }
 .second_section .whats_get h2 {
   margin-left: 10px;
@@ -197,7 +201,7 @@ header p {
 .second_section_line {
   margin-top: 40px;
   width: 100%;
-  height: 80px;
+  height: 111px;
   color: #414141;
   background-color: #fff;
   position: relative;
@@ -210,7 +214,7 @@ header p {
 }
 .second_section_line .discount_block .discont {
   width: 120px;
-  height: 80px;
+  height: 111px;
   background-color: #ff7200;
   position: absolute;
   bottom: 0;
@@ -220,7 +224,7 @@ header p {
   color: #fff;
   font-weight: 500;
   font-size: 13px;
-  margin: 5px 0 0 18px;
+  margin: 20px 0 0 18px;
 }
 .second_section_line .discount_block .discont .t span {
   font-weight: 600;
@@ -234,7 +238,7 @@ header p {
   left: 120px;
   top: 0;
   border-style: solid;
-  border-width: 40px 0 40px 15px;
+  border-width: 55.5px 0 55.5px 30px;
   border-color: transparent transparent transparent #ff7300;
 }
 
@@ -250,6 +254,12 @@ header p {
   width: 480px;
   float: right;
   position: relative;
+  top: -15px;
+}
+.price_block .bonus_price {
+  position: relative;
+  top: 35px;
+  left: 32px;
 }
 .price_block a {
   display: inline-block;
@@ -427,6 +437,13 @@ h2::after {
   top: 0;
 }
 
+.t_block img {
+  top: 0;
+  width: 18px;
+  height: auto;
+  margin-right: 10px;
+}
+
 .b_bullet {
   font-size: 15px;
   color: #525252;
@@ -436,9 +453,10 @@ h2::after {
   position: relative;
   display: inline-block;
   border-radius: 100%;
-  background-color: #da6c00;
-  width: 6px;
-  height: 6px;
+  background-image: url("../img/second_section_bullet_1.png");
+  background-position: center;
+  background-size: contain;
+  width: 18px;
   margin-right: 10px;
   top: -3px;
 }
@@ -490,12 +508,15 @@ h2::after {
   width: 274px;
   min-height: 366px;
   max-height: 800px;
+  padding: 10px 0;
 }
 .price_table_block:hover {
   box-shadow: 0px 1px 5px 5px rgba(2, 2, 2, 0.1);
 }
 
 .price_table_header {
+  position: relative;
+  top: -11px;
   width: 100%;
   height: 50px;
   background-color: #858585;
@@ -514,7 +535,6 @@ h2::after {
   position: relative;
   display: block;
   text-align: left;
-  padding-top: 20px;
 }
 
 .price_table_block {
