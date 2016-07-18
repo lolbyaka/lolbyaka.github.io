@@ -92,6 +92,9 @@ header
   position: relative
   display: inline-block
   text-align: center
+  &:hover
+    background-color: #fba158
+    transition: 0.1s ease-out 0.1s
 
 .timer_block
   width: 50%
@@ -742,3 +745,36 @@ h2
       width: 16%
       margin: 21px auto 21px auto
       left: 0
+
+/* Попап окно с картинкой */
+
+.picture-popup
+  position: fixed
+  z-index: 10000
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  .picture
+    position: absolute
+    width: 100%
+    height: 100%
+    img
+      width: auto
+      height: 80%
+      position: relative
+      z-index: 9999
+      top: -90%
+      left: 0
+      margin: auto
+      display: block
+      border: solid 5px #fff
+      cursor: pointer
+      border-radius: 5px
+
+  .overlay
+    background-color: black
+    opacity: 0.5
+    width: 100%
+    cursor: pointer
+    height: 100%

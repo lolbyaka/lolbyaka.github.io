@@ -160,18 +160,6 @@
                 <img src="./img/second_section_bullet_1.png" alt="">
                 <div class="bullet_text">уникальные методики, опыт нескольких поколений</div>
               </div>
-              <div class="bullet">
-                <img src="./img/second_section_bullet_1.png" alt="">
-                <div class="bullet_text">уникальные методики, опыт нескольких поколений</div>
-              </div>
-              <div class="bullet">
-                <img src="./img/second_section_bullet_1.png" alt="">
-                <div class="bullet_text">уникальные методики, опыт нескольких поколений</div>
-              </div>
-              <div class="bullet">
-                <img src="./img/second_section_bullet_1.png" alt="">
-                <div class="bullet_text">уникальные методики, опыт нескольких поколений</div>
-              </div>
             </div>
           </div>
         </div>
@@ -291,31 +279,31 @@
           <div class="gallery-slider">
             <div class="item">
               <img src="./img/g_img_0.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="0" ><span>Увеличить</span></button>
             </div>
             <div class="item">
               <img src="./img/g_img_1.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="1" ><span>Увеличить</span></button>
             </div>
             <div class="item">
               <img src="./img/g_img_2.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="2" ><span>Увеличить</span></button>
             </div>
             <div class="item">
               <img src="./img/g_img_3.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="3" ><span>Увеличить</span></button>
             </div>
             <div class="item">
               <img src="./img/g_img_4.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="4" ><span>Увеличить</span></button>
             </div>
             <div class="item">
               <img src="./img/g_img_5.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="5" ><span>Увеличить</span></button>
             </div>
             <div class="item">
               <img src="./img/g_img_6.jpg" alt="Owl Image">
-              <button class="zoom"><span>Увеличить</span></button>
+              <button class="zoom" id="6" ><span>Увеличить</span></button>
             </div>
           </div>
         </div>
@@ -327,7 +315,7 @@
       <div class="container">
           <h2>Отзывы наших клиентов</h2>
           <div class="rew_container">
-            <div id="owl-demo_2">
+            <div class="slick-rew">
               <div class="item">
                 <div class="rew_type_1">
                   <div class="p_rew">Получите ответы на самые мучающие
@@ -523,20 +511,23 @@
       </div>
       </div>
     </section>
-
+    <div class="picture-popup">
+      <div class="overlay"></div>
+      <div class="picture"><img class="popup_img" src="./img/g_img_3.jpg" alt=""></div>
+    </div>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
+      var images_url = ["./img/g_img_0.jpg",
+                        "./img/g_img_1.jpg",
+                        "./img/g_img_2.jpg",
+                        "./img/g_img_3.jpg",
+                        "./img/g_img_4.jpg",
+                        "./img/g_img_5.jpg"];
       $(document).ready(function() {
-
-        $("#owl-demo_2").owlCarousel({
-
-          slideSpeed : 300,
-          paginationSpeed : 400,
-          singleItem:true,
-          navigation:true
-
+        $('.slick-rew').slick({
+          arrows: false,
+          dots: true
         });
-
         $('.gallery-slider').slick({
           centerMode: true,
           variableWidth: true,
@@ -544,8 +535,25 @@
           slidesToScroll: 1,
           arrows: true
         });
-
+        PopUpHide();
+        $(".zoom").click(function() {
+           $(".popup_img").attr("src", images_url[$(this).attr('id')]);
+           PopUpShow();
+        });
+        $(".overlay").click(function() {
+          PopUpHide();
+        });
+        $(".picture").click(function() {
+          PopUpHide();
+        });
       });
+
+      function PopUpShow(){
+        $(".picture-popup").fadeIn("slow");
+      }
+      function PopUpHide(){
+        $(".picture-popup").fadeOut("slow");
+      }
     </script>
   </body>
 </html>
