@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/1026686388.js"></script>
   </head>
   <body>
 
@@ -40,7 +41,7 @@
           </div>
         </div>
       </div>
-      <div class="ribbon-wrapper-green"><div class="ribbon-green">NEWS</div>
+      <div class="ribbon-wrapper-green"><div class="ribbon-green"><a href="#">Мы запускаем новое направление!<br>Успейте получить подарок!</a></div>
     </header>
 
     <!-- Result-->
@@ -48,8 +49,10 @@
     <section class="result">
       <div class="container">
         <div class="video">
-          <img src="" alt="">
-        </div>
+          <img src="./img/gallery_images/img_2.jpg" alt=""></img>
+          <div class="overlay_img">
+            <div class="plus_icon " id="gallery_button"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+          </div>
         </div>
         <div class="results">
           <h2>На мастер-классе вы:</h2>
@@ -72,7 +75,7 @@
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </section>
 
     <!-- About Author -->
@@ -106,9 +109,6 @@
               <div class="bullet_text">Онлайн мастер-классы по основам монетизации хобби посетило более 4 000 человек</div>
             </div>
           </div>
-          <!--
-          <div class="author_text">В рекламном и издательском бизнесе около 20 лет. Профессионально занимаюсь разработкой рекламных и маркетинговых кампаний для различных сфер бизнеса.  Автор обучающих курсов по продажам для хобби-мастеров и специалистов, оказывающих профессиональные услуги. Бизнес-тренер, веду онлайн и офлайн программы по обучению продажам как в реале, так и с помощью интернета, формированию личного бренда. Онлайн мастер-классы по основам монетизации хобби посетило более 4 000 человек.</div>
-        -->
         </div>
       </div>
     </section>
@@ -164,19 +164,70 @@
     </footer>
 
     <!-- Picture Popup-->
-<!--
+
     <section class="popup">
       <div class="overlay"></div>
       <div class="picture">
-        <img src="./img/header_bg.jpg" alt="">
+        <img class="popup_img" src="./img/header_bg.jpg" alt="">
         <div class="controll_block">
-          <div class="previous"></div>
-          <div class="next"></div>
+          <div class="previous controll"><</div>
+          <div class="next controll">></div>
         </div>
       </div>
     </section>
-  -->
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/site.js"></script>
+    <script type="text/javascript">
+      var images_url = ["./img/gallery_images/img_0.jpg",
+                        "./img/gallery_images/img_1.jpg",
+                        "./img/gallery_images/img_2.jpg",
+                        "./img/gallery_images/img_3.jpg",
+                        "./img/gallery_images/img_4.jpg",
+                        "./img/gallery_images/img_5.jpg",
+                        "./img/gallery_images/img_6.jpg",
+                        "./img/gallery_images/img_7.jpg",
+                        "./img/gallery_images/img_8.jpg",
+                        "./img/gallery_images/img_9.jpg",
+                        "./img/gallery_images/img_10.jpg",
+                        "./img/gallery_images/img_11.jpg",
+                        "./img/gallery_images/img_12.jpg",
+                        "./img/gallery_images/img_13.jpg",
+                        "./img/gallery_images/img_14.jpg",
+                        "./img/gallery_images/img_15.jpg"],
+          current_slide = 0;
+      $(document).ready(function() {
+        $(".popup").fadeOut("slow");
+        $(".plus_icon").click(function() {
+           $(".popup_img").attr("src", images_url[$(this).attr('id')]);
+           current_slide = parseInt($(this).attr('id'));
+           update_data(current_slide);
+           $(".popup").fadeIn("slow");
+        });
+        $(".overlay").click(function() {
+          $(".popup").fadeOut("slow");
+        });
+        function update_data(number_slide){
+          var slide_id = number_slide+1;
+        }
+        $(".popup_img").click(function() {
+          $(".popup").fadeOut("slow");
+        });
+        $(".previous").click(function() {
+          if(current_slide>0){
+            current_slide--;
+          }
+          update_data(current_slide);
+          $(".popup_img").attr("src", images_url[current_slide]);
+        });
+        $(".next").click(function() {
+          if(current_slide<images_url.length-1){
+            current_slide++;
+          }
+          update_data(current_slide);
+          $(".popup_img").attr("src", images_url[current_slide]);
+        });
+      });
+    </script>
   </body>
 </html>

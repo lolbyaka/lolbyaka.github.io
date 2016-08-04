@@ -150,9 +150,41 @@ form
 .video
   float: left
   width: 444px
-  height: 300px
-  background-color: #baccd7
+  height: auto
+  position: relative
+  img
+    width: 100%
+    height: auto
 
+.overlay_img
+  width: 100%
+  height: 99%
+  background-color: rgba(186,204,215,0)
+  z-index: 1111
+  position: absolute
+  cursor: pointer
+  top: 0
+  transition: all 0.5s
+  &:hover
+    background-color: rgba(186,204,215,0.5)
+    .plus_icon
+      opacity: 1
+
+.plus_icon
+  margin: 20% auto 0 auto
+  color: rgba(0,0,0,0.6)
+  background-color: #fff
+  width: 75px
+  height: 75px
+  border-radius: 100%
+  text-align: center
+  line-height: 2.6
+  font-size: 29px
+  position: relative
+  opacity: 0
+  transition: all ease 0.6s
+  &:hover
+    box-shadow: 0 0 50px rgba(0,0,0,1)
 .results
   float: right
   width: 450px
@@ -342,9 +374,11 @@ footer .wrap .copyright
   font-size: 12px
   color: #6f7174
 
+/* Зеленая полоса на первом прокруте */
+
 .ribbon-wrapper-green
   width: 305px
-  height: 235px
+  height: 305px
   overflow: hidden
   position: absolute
   top: 0
@@ -352,17 +386,21 @@ footer .wrap .copyright
 
 
 .ribbon-green
-  font: bold 15px Sans-Serif
-  color: #333
   text-align: center
-  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px
   transform: rotate(45deg)
   position: relative
   padding: 7px 0
-  left: -100px
-  top: 15px
-  width: 500px
-  background-color: #BFDC7A
+  left: -77px
+  top: 90px
+  width: 535px
+  background-color: rgb(70, 175, 114)
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.07)
+  a
+    font-family: "HelveticaB", sans-serif
+    font-size: 15px
+    color: #fff
+    line-height: 1.2
+    text-decoration: none
 
 .ribbon-green:before
   left: 0
@@ -385,8 +423,17 @@ footer .wrap .copyright
 
   header
     height: none
-    padding: 45px 0
-
+    padding: 45px 0 80px 0
+    h1
+      text-transform: uppercase
+      line-height: 1.5
+      spanh
+        font-size: 27px
+        line-height: 1.2
+        text-transform: none
+    .header-content
+      p
+        margin-top: 30px
   .logo
     width: 125px
     height: auto
@@ -405,7 +452,7 @@ footer .wrap .copyright
     margin: 25px 13px 0 13px
 
   .timer
-    margin-top: 70px
+    margin-top: 30px
 
   .timer_blocks
     text-align: center
@@ -422,15 +469,13 @@ footer .wrap .copyright
 
   /* Result */
   .result
-    padding: 85px 0 85px 0
+    padding: 85px 0 15px 0
     .container
       height: 550px
 
   .video
-    float: left
-    iframe
-      width: 100%
-      height: 200px
+    width: 100%
+
   .results
     float: left
     width: 100%
@@ -441,6 +486,7 @@ footer .wrap .copyright
     text-align: center
     margin: 0
     width: 100%
+    text-align: left
     &::after
       content: ""
       width: 110px
@@ -486,13 +532,10 @@ footer .wrap .copyright
   .author_photo
     width: 200px
     height: 200px
-    overflow: hidden
-    border-radius: 100%
-    display: inline-block
-    margin-right: 50px
     left: 50%
     position: relative
     margin-left: -100px
+    margin-bottom: 40px
     img
       width: 100%
 
@@ -529,7 +572,7 @@ footer .wrap .copyright
 
   /* pre-footer */
   .promo
-    height: 580px
+    height: 620px
     padding: 45px 0
     background-image: url('../img/promo_bg.png')
     background-size: cover
@@ -630,28 +673,24 @@ footer .wrap .copyright
     font-size: 12px
     color: #6f7174
 
-  .add_line
-    width: 100%
-    right: 0
-    top: 0
-    position: relative
-    background-color: rgb(70, 175, 114)
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.07)
-    padding: 10px 0
-    transform: none
-    transition: all 0.5s
-    left: 0
-    margin-top: 30px
-    text-align: center
-    a
-      font-size: 15px
-      font-family: "HelveticaB"
-      color: #fff
-      cursor: pointer
-      text-decoration: none
-    &:hover
-      background-color: #57d88d
+  /* Зеленая полоса на первом прокруте */
 
+  .ribbon-wrapper-green
+    width: 100%
+    height: auto
+    overflow: hidden
+    position: relative
+    margin-top: 25px
+    top: 0
+    right: 0
+
+  .ribbon-green
+    transform: none
+    position: relative
+    padding: 7px 0
+    left: 0
+    top: 0
+    width: 100%
 
 .popup
   position: fixed
@@ -659,7 +698,8 @@ footer .wrap .copyright
   left: 0
   width: 100%
   height: 100%
-  z-index: 100
+  z-index: 9999
+  display: none
 .overlay
   background-color: black
   opacity: 0.5
@@ -672,6 +712,7 @@ footer .wrap .copyright
   height: 100%
   position: absolute
   top: 0
+  cursor: pointer
   img
     width: auto
     height: 70%
@@ -683,3 +724,28 @@ footer .wrap .copyright
     display: block
     border: solid 5px #fff
     cursor: pointer
+.previous
+  float: left
+  margin-left: 50px
+.next
+  float: right
+  margin-right: 50px
+
+.controll_block
+  position: relative
+  top: -35%
+.controll
+  width: 77px
+  height: 77px
+  line-height: 1.65
+  background-color: #fff
+  color: #46af72
+  text-align: center
+  font-size: 44px
+  font-family: "HelveticaR"
+  cursor: pointer
+  transition: all ease 0.5s
+  &:hover
+    background-color: #eee
+    color: #41af42
+    box-shadow: 0 0 50px rgba(0,0,0,0.5)
