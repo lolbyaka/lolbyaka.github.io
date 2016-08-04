@@ -93,8 +93,7 @@ form {
   color: #fff;
   text-transform: uppercase;
   margin: 0 13px 0 13px;
-  -webkit-transition: all 0.5s;
-          transition: all 0.5s;
+  transition: all 0.5s;
 }
 .header-form_submit:focus {
   outline: none;
@@ -126,9 +125,7 @@ form {
   font-size: 48px;
   font-family: "HelveticaB", sans-serif;
   color: #2d3f4c;
-  -webkit-transform: matrix(0.85, 0, 0, 0.85, 0, 0);
-      -ms-transform: matrix(0.85, 0, 0, 0.85, 0, 0);
-          transform: matrix(0.85, 0, 0, 0.85, 0, 0);
+  transform: matrix(0.85, 0, 0, 0.85, 0, 0);
 }
 
 .time_description {
@@ -136,9 +133,7 @@ form {
   font-family: "HelveticaB";
   color: #2d3f4c;
   margin-top: -5px;
-  -webkit-transform: matrix(0.85, 0, 0, 0.85, 0, 0, 0);
-      -ms-transform: matrix(0.85, 0, 0, 0.85, 0, 0, 0);
-          transform: matrix(0.85, 0, 0, 0.85, 0, 0, 0);
+  transform: matrix(0.85, 0, 0, 0.85, 0, 0, 0);
 }
 
 /* Result */
