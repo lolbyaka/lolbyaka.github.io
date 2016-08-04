@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="ru">
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,11 +17,11 @@
       <div class="container">
         <a href="#"><img src="./img/logo.png" alt="Masaa" class="logo" /></a>
         <div class="header-content">
-          <h1><spanh>Онлайн мастер-класс</spanh> <br>5 эффективных и бесплатных способов продаж авторских и хобби работ</h1>
+          <h1><span class="spanh">Онлайн мастер-класс</span> <br>5 эффективных и бесплатных способов продаж авторских и хобби работ</h1>
           <p>Пропустили вебинар? Вышлем запись на почту!</p>
           <form class="header-form" action="">
             <input type="email" class="header-form_name" name="name" value="" placeholder="Введите ваш email">
-            <input type="submit" class="header-form_submit"name="name" value="Получить доступ"><p>Что бы участвовать - заполните форму</p></input>
+            <input type="submit" class="header-form_submit" name="name" value="Получить доступ"><p>Что бы участвовать - заполните форму</p>
           </form>
           <div class="timer">
             <p>Предложение действительно еще:</p>
@@ -41,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="ribbon-wrapper-green"><div class="ribbon-green"><a href="#">Зарегистрируйся сегодня - <br> получи в подарок...</a></div>
+      <div class="ribbon-wrapper-green"><div class="ribbon-green"><a href="#">Зарегистрируйся сегодня - <br> получи в подарок...</a></div></div>
     </header>
 
     <!-- Result-->
@@ -49,7 +50,7 @@
     <section class="result">
       <div class="container">
         <div class="video">
-          <img src="./img/gallery_images/img_2.jpg" alt=""></img>
+          <img src="./img/gallery_images/img_2.jpg" alt="">
           <div class="overlay_img">
             <div class="plus_icon " id="gallery_button"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
           </div>
@@ -82,6 +83,7 @@
             <li class="bullet_text">Бизнес-тренер, ведет онлайн и офлайн программы по обучению продажам как в реале, так и с помощью интернета, формированию личного бренда</li>
             <li class="bullet_text">Онлайн мастер-классы по основам монетизации хобби посетило более 4 000 человек</li>
           </ul>
+        </div>
       </div>
     </section>
 
@@ -89,10 +91,10 @@
 
     <section class="promo">
       <div class="container">
-        <form class="promo_form" action="">
+        <form class="promo_form">
           <h3><span>Заполните</span> форму <br>для получения доступа</h3>
           <input type="email" class="header-form_name" name="name" value="" placeholder="Введите ваш email">
-          <input type="submit" class="header-form_submit"name="name" value="Получить доступ">
+          <input type="submit" class="header-form_submit" name="name" value="Получить доступ">
           <p>Пропустили вебинар? Вышлем запись на почту!</p>
         </form>
         <div class="promo_content">
@@ -137,10 +139,8 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/site.js"></script>
-<!--
 
-
-    <section class="popup">
+<!--<section class="popup">
       <div class="overlay"></div>
       <div class="picture">
         <img class="popup_img" src="./img/header_bg.jpg" alt="">
@@ -149,58 +149,6 @@
           <div class="next controll">></div>
         </div>
       </div>
-    </section>
-
-    <script type="text/javascript">
-      var images_url = ["./img/gallery_images/img_0.jpg",
-                        "./img/gallery_images/img_1.jpg",
-                        "./img/gallery_images/img_2.jpg",
-                        "./img/gallery_images/img_3.jpg",
-                        "./img/gallery_images/img_4.jpg",
-                        "./img/gallery_images/img_5.jpg",
-                        "./img/gallery_images/img_6.jpg",
-                        "./img/gallery_images/img_7.jpg",
-                        "./img/gallery_images/img_8.jpg",
-                        "./img/gallery_images/img_9.jpg",
-                        "./img/gallery_images/img_10.jpg",
-                        "./img/gallery_images/img_11.jpg",
-                        "./img/gallery_images/img_12.jpg",
-                        "./img/gallery_images/img_13.jpg",
-                        "./img/gallery_images/img_14.jpg",
-                        "./img/gallery_images/img_15.jpg"],
-          current_slide = 0;
-      $(document).ready(function() {
-        $(".popup").fadeOut("slow");
-        $(".plus_icon").click(function() {
-           $(".popup_img").attr("src", images_url[$(this).attr('id')]);
-           current_slide = parseInt($(this).attr('id'));
-           update_data(current_slide);
-           $(".popup").fadeIn("slow");
-        });
-        $(".overlay").click(function() {
-          $(".popup").fadeOut("slow");
-        });
-        function update_data(number_slide){
-          var slide_id = number_slide+1;
-        }
-        $(".popup_img").click(function() {
-          $(".popup").fadeOut("slow");
-        });
-        $(".previous").click(function() {
-          if(current_slide>0){
-            current_slide--;
-          }
-          update_data(current_slide);
-          $(".popup_img").attr("src", images_url[current_slide]);
-        });
-        $(".next").click(function() {
-          if(current_slide<images_url.length-1){
-            current_slide++;
-          }
-          update_data(current_slide);
-          $(".popup_img").attr("src", images_url[current_slide]);
-        });
-      });
-    </script> -->
+    </section> -->
   </body>
 </html>
