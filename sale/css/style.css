@@ -53,9 +53,11 @@ header {
   background-size: cover;
 }
 header h1 {
-  text-transform: uppercase;
+  color: #46af72;
+  text-transform: none;
 }
 header h1 spanh {
+  color: #fff;
   font-size: 33px;
   line-height: 1.9;
   text-transform: none;
@@ -250,18 +252,6 @@ h2::after {
   margin-top: 20px;
 }
 
-.circle {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #577f97;
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  top: 5px;
-  margin-right: 7px;
-}
-
 .bullet_text {
   display: inline-block;
   width: 90%;
@@ -272,14 +262,26 @@ h2::after {
   color: #4d4d4d;
   line-height: 1.2;
   text-align: left;
+  list-style: circle;
+  position: relative;
+  margin: 10px 0 10px 0;
 }
-
-.bullet {
-  margin: 15px 0 15px 0;
+.bullet_text:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -20px;
+  line-height: 1.8em;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #577f97;
 }
 
 .bullets {
-  margin-top: 40px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 20px;
 }
 
 /* About Author */
