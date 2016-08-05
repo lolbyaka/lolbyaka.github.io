@@ -56,15 +56,18 @@ header h1 {
   color: #fff;
   text-transform: uppercase;
 }
-header .header-content p {
-  margin-top: 30px;
-}
 
 .logo {
   width: 125px;
   height: auto;
   padding-top: 20px;
   left: 0;
+}
+
+.row {
+  padding: 25px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
 }
 
 form {
@@ -156,7 +159,7 @@ form {
 
 /* Result */
 .result {
-  padding: 85px 0 165px 0;
+  padding: 85px 0 225px 0;
 }
 .result .container {
   height: 305px;
@@ -442,7 +445,7 @@ footer .wrap .copyright {
 
   /* HEADER */
   header {
-    padding: 45px 0 40px 0;
+    padding: 45px 0 80px 0;
   }
   header h1 {
     text-transform: uppercase;
@@ -453,15 +456,16 @@ footer .wrap .copyright {
     line-height: 1.2;
     text-transform: none;
   }
-  header .header-content p {
-    margin-top: 20px;
-  }
 
   .logo {
     width: 125px;
     height: auto;
     padding-top: 20px;
     left: 0;
+  }
+
+  .row {
+    padding: 10px 0;
   }
 
   form {
@@ -498,7 +502,7 @@ footer .wrap .copyright {
 
   /* Result */
   .result {
-    padding: 85px 0 155px 0;
+    padding: 85px 0 255px 0;
   }
   .result .container {
     height: 550px;
@@ -528,7 +532,7 @@ footer .wrap .copyright {
 
   /* pre-footer */
   .promo {
-    height: 620px;
+    height: 785px;
     padding: 45px 0;
     background-image: url("../img/promo_bg.png");
     background-size: cover;
@@ -571,6 +575,7 @@ footer .wrap .copyright {
   .promo_content {
     width: 100%;
     float: left;
+    margin-top: 10px;
   }
   .promo_content h1 {
     margin-top: 20px;
