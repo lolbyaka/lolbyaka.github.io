@@ -54,12 +54,15 @@ header {
 }
 header h1 {
   color: #46af72;
-  text-transform: none;
+  text-transform: uppercase;
 }
 header h1 .spanh {
   color: #fff;
   font-size: 33px;
   line-height: 1.9;
+  text-transform: none;
+}
+header h1 .i_text {
   text-transform: none;
 }
 header .header-content p {
@@ -492,7 +495,7 @@ footer .wrap .copyright {
 
   /* HEADER */
   header {
-    padding: 45px 0 120px 0;
+    padding: 45px 0 40px 0;
   }
   header h1 {
     text-transform: uppercase;
@@ -504,7 +507,7 @@ footer .wrap .copyright {
     text-transform: none;
   }
   header .header-content p {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .logo {
@@ -515,7 +518,7 @@ footer .wrap .copyright {
   }
 
   form {
-    margin: 50px 0 0 0;
+    margin: 20px 0 0 0;
     text-align: center;
   }
 
@@ -525,7 +528,7 @@ footer .wrap .copyright {
   }
 
   .header-form_submit {
-    margin: 25px 13px 0 13px;
+    margin: 25px 13px 0 5px;
   }
 
   .timer {

@@ -16,11 +16,11 @@
       <div class="container">
         <a href="#"><img src="./img/logo.png" alt="Masaa" class="logo" /></a>
         <div class="header-content">
-          <h1><span class="spanh">Онлайн мастер-класс</span> <br>5 эффективных и бесплатных способов продаж авторских и хобби работ</h1>
-          <p>Пропустили вебинар? Вышлем запись на почту!</p>
-          <form class="header-form">
+          <h1><span class="spanh">Онлайн мастер-класс</span> <br>5 эффективных <span class="i_text">и</span> бесплатных способов продаж авторских <span class="i_text">и</span> хобби работ</h1>
+          <p>Что бы участвовать - заполните форму</p>
+          <form class="header-form" onsubmit="yaCounter38877785.reachGoal('reg1');">
             <input type="email" class="header-form_name" name="name" value="" placeholder="Введите ваш email">
-            <input type="submit" class="header-form_submit" name="name" value="Получить доступ"><p>Что бы участвовать - заполните форму</p>
+            <input type="submit" class="header-form_submit" name="name" value="Получить доступ"><p>Пропустили вебинар? Вышлем запись на почту!</p>
           </form>
           <div class="timer">
             <p>Предложение действительно еще:</p>
@@ -49,7 +49,7 @@
     <section class="result">
       <div class="container">
         <div class="video">
-          <img src="./img/gallery_images/img_2.jpg" alt="">
+          <img src="./img/video_bg.jpg" alt="">
           <div class="overlay_img">
             <div class="plus_icon " id="gallery_button"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
           </div>
@@ -90,7 +90,7 @@
 
     <section class="promo">
       <div class="container">
-        <form class="promo_form">
+        <form class="promo_form" onsubmit="yaCounter38877785.reachGoal('reg1');">
           <h3><span>Заполните</span> форму <br>для получения доступа</h3>
           <input type="email" class="header-form_name" name="name" value="" placeholder="Введите ваш email">
           <input type="submit" class="header-form_submit" name="name" value="Получить доступ">
@@ -138,16 +138,35 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/site.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter38877785 = new Ya.Metrika({
+                        id:38877785,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true,
+                        trackHash:true
+                    });
+                } catch(e) { }
+            });
 
-<!--<section class="popup">
-      <div class="overlay"></div>
-      <div class="picture">
-        <img class="popup_img" src="./img/header_bg.jpg" alt="">
-        <div class="controll_block">
-          <div class="previous controll"><</div>
-          <div class="next controll">></div>
-        </div>
-      </div>
-    </section> -->
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/38877785" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
   </body>
 </html>
