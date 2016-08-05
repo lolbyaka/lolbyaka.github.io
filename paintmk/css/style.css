@@ -430,6 +430,44 @@ footer .wrap .copyright {
   right: 0;
 }
 
+.modal_bg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.modal_bg .overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal_bg .close {
+  color: black;
+  font-family: "HelveticaR", sans-serif;
+  font-size: 25px;
+  margin-right: 15px;
+  margin-top: 15px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.modal_bg .promo_form {
+  left: 50%;
+  top: 250px;
+  height: 280px;
+  margin-top: -140px;
+  margin-left: -151.5px;
+  position: relative;
+  z-index: 1100;
+}
+
 @media screen and (max-width: 810px) {
   .container {
     width: 320px;
@@ -650,7 +688,24 @@ footer .wrap .copyright {
     color: #6f7174;
   }
 
-  /* ╨Ч╨╡╨╗╨╡╨╜╨░╤П ╨┐╨╛╨╗╨╛╤Б╨░ ╨╜╨░ ╨┐╨╡╤А╨▓╨╛╨╝ ╨┐╤А╨╛╨║╤А╤Г╤В╨╡ */
+  .modal_bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .modal_bg .promo_form {
+    left: 0;
+    top: 150px;
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    position: relative;
+    float: none;
+  }
+
   .ribbon-wrapper-green {
     width: 100%;
     height: auto;
@@ -669,76 +724,6 @@ footer .wrap .copyright {
     top: 0;
     width: 100%;
   }
-}
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  display: none;
-}
-
-.overlay {
-  background-color: black;
-  opacity: 0.5;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-
-.picture {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  cursor: pointer;
-}
-.picture img {
-  width: auto;
-  height: 70%;
-  position: relative;
-  z-index: 9999;
-  top: 50px;
-  left: 0;
-  margin: auto;
-  display: block;
-  border: solid 5px #fff;
-  cursor: pointer;
-}
-
-.previous {
-  float: left;
-  margin-left: 50px;
-}
-
-.next {
-  float: right;
-  margin-right: 50px;
-}
-
-.controll_block {
-  position: relative;
-  top: -35%;
-}
-
-.controll {
-  width: 77px;
-  height: 77px;
-  line-height: 1.65;
-  background-color: #fff;
-  color: #46af72;
-  text-align: center;
-  font-size: 44px;
-  font-family: "HelveticaR";
-  cursor: pointer;
-  transition: all ease 0.5s;
-}
-.controll:hover {
-  background-color: #eee;
-  color: #41af42;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
