@@ -581,6 +581,11 @@ footer .wrap .copyright {
     margin-top: 20px;
     text-align: left;
   }
+  .promo_content h2 span {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+  }
   .promo_content .timer {
     margin-top: 20px;
   }
@@ -589,6 +594,10 @@ footer .wrap .copyright {
   }
   .promo_content .timer .timer_block {
     float: left;
+  }
+  .promo_content .hurry_get {
+    width: 80%;
+    font-size: 14px;
   }
 
   /* Footer */
