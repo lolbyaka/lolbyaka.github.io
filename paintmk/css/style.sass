@@ -147,47 +147,15 @@ form
 .video
   float: left
   width: 444px
-  height: auto
+  height: 350px
   position: relative
-  img
-    width: 100%
-    height: auto
-
-.overlay_img
-  width: 100%
-  height: 99%
-  background-color: rgba(186,204,215,0.5)
-  z-index: 1111
-  position: absolute
-  cursor: pointer
-  top: 0
-  transition: all 0.5s
-  &:hover
-    background-color: rgba(186,204,215,0.2)
-    .plus_icon
-      box-shadow: 0 0 50px rgba(0,0,0,0.5)
-      transform: scale(1.2,1.2)
-
-.plus_icon
-  margin: 20% auto 0 auto
-  color: rgba(0,0,0,0.6)
-  background-color: rgba(255,255,255,1.0)
-  width: 75px
-  height: 75px
-  border-radius: 50%
+  margin-top: 15px
+  background-color: #fff3df
   text-align: center
-  font-size: 29px
-  position: relative
-  transition: all ease 0.6s
-  &:hover
-    background-color: #fff
-    color: #ff6022
-  &:before
-    content: ""
-    display: inline-block
-    min-height: inherit
-    height: 110%
-    vertical-align: middle
+  iframe
+    margin: 20px auto 0 auto
+    width: 90%
+    height: 300px
 
 .results
   float: right
@@ -481,7 +449,9 @@ footer .wrap .copyright
 
   .video
     width: 100%
-
+    iframe
+      width: 100%
+      height: 300px
   .results
     float: left
     width: 100%
