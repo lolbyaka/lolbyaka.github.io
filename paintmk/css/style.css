@@ -312,8 +312,9 @@ h3 span {
   height: 265px;
   background-color: #fff;
   float: left;
-  border: 5px #de6232 solid;
+  border: 3px #de6232 solid;
   margin: 100px 0 0 0;
+  border-radius: 10px;
 }
 .promo_form .header-form_name {
   display: block;
@@ -336,34 +337,49 @@ h3 span {
 .promo_content {
   width: 560px;
   float: right;
+  margin-top: 90px;
 }
-.promo_content h1 {
-  margin-top: 150px;
+.promo_content h2 {
   font-size: 25px;
   font-family: "HelveticaB";
   color: #fff;
-  line-height: 1.2;
-  text-align: left;
-  background-color: #de6232;
-  padding: 5px 10px;
-  text-shadow: none;
   display: inline-block;
-}
-.promo_content h2 {
-  font-size: 18px;
-  font-family: "HelveticaM";
-  color: #45392a;
-  font-weight: bold;
-  line-height: 1.2;
-  background-color: #fff;
-  display: inline-block;
-  padding: 10px 10px;
-}
-.promo_content h2 .fist_span {
-  font-family: "HelveticaB";
+  padding: 10px 24px 10px 0;
+  margin-bottom: 10px;
 }
 .promo_content h2 span {
-  color: #c64f21;
+  display: inline-block;
+  padding: 4px 18px;
+  background-color: #de6232;
+  text-transform: uppercase;
+}
+.promo_content .timer_blocks {
+  text-align: left;
+}
+.promo_content .timer_blocks .timer_block {
+  text-align: center;
+}
+
+.hurry_get {
+  position: relative;
+  margin-top: 25px;
+  height: 36px;
+  width: 350px;
+  background: #fff;
+  text-align: center;
+  line-height: 2.2;
+  font-family: "HelveticaB", sans-serif;
+  font-size: 16px;
+}
+
+.hurry_get:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 36px;
+  width: 63px;
+  background: url("../img/arr.png") no-repeat 0 0;
 }
 
 /* Footer */
