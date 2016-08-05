@@ -45,7 +45,7 @@ p
 /* HEADER */
 
 header
-  height: 690px
+  height: 730px
   width: 100%
   background-image: url('../img/header_bg.jpg')
   background-position: center
@@ -61,14 +61,16 @@ header
       text-transform: none
     .i_text
       text-transform: none
-  .header-content
-    p
-      margin-top: 30px
+
 .logo
   width: 125px
   height: auto
   padding-top: 20px
   left: 0
+.row
+  padding: 25px 0
+  background-color: rgba(0,0,0,0.4)
+  margin-top: 40px
 
 form
   margin: 20px 0 0 0
@@ -129,6 +131,7 @@ form
   height: 75px
   margin: 0 7px 0 7px
   border: 8px solid #fff
+  border-radius: 10px
   background-color: rgba(255, 255, 255, 0.851)
 
 .time_text
@@ -386,7 +389,25 @@ footer .wrap .copyright
   font-size: 12px
   color: #6f7174
 
-/* Зеленая полоса на первом прокруте */
+.hurry_get
+  position: relative
+  margin-top: 25px
+  height: 36px
+  width: 350px
+  background: #fff
+  text-align: center
+  line-height: 2.2
+  font-family: "HelveticaB", sans-serif
+  font-size: 16px
+
+.hurry_get:after
+  content: ""
+  position: absolute
+  top: 0
+  left: 100%
+  height: 36px
+  width: 63px
+  background: url("../img/arr.png") no-repeat 0 0
 
 .ribbon-wrapper-green
   width: 305px
@@ -401,15 +422,15 @@ footer .wrap .copyright
   text-align: center
   transform: rotate(45deg)
   position: relative
-  padding: 7px 0
+  padding: 24px 0
   left: -77px
-  top: 90px
+  top: 80px
   width: 535px
   background-color: rgb(70, 175, 114)
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.07)
   a
     font-family: "HelveticaB", sans-serif
-    font-size: 15px
+    font-size: 19px
     color: #fff
     line-height: 1.2
     text-decoration: none
@@ -419,6 +440,42 @@ footer .wrap .copyright
 
 .ribbon-green:after
   right: 0
+
+
+.modal_bg
+  display: none
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1000
+  .overlay
+    display: block
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,0.5)
+    position: fixed
+    top: 0
+    left: 0
+  .close
+    color: black
+    font-family: "HelveticaR", sans-serif
+    font-size: 25px
+    margin-right: 15px
+    margin-top: 15px
+    position: absolute
+    right: 0
+    cursor: pointer
+
+  .promo_form
+    left: 50%
+    top: 250px
+    height: 280px
+    margin-top: -140px
+    margin-left: -151.5px
+    position: relative
+    z-index: 1100
 
 
 @media screen and (max-width: 810px)
@@ -434,7 +491,7 @@ footer .wrap .copyright
   /* HEADER */
 
   header
-    padding: 45px 0 40px 0
+    padding: 45px 0 130px 0
     h1
       text-transform: uppercase
       line-height: 1.5
@@ -450,7 +507,8 @@ footer .wrap .copyright
     height: auto
     padding-top: 20px
     left: 0
-
+  .row
+    padding: 10px 0
   form
     margin: 20px 0 0 0
     text-align: center
@@ -674,61 +732,3 @@ footer .wrap .copyright
     left: 0
     top: 0
     width: 100%
-
-.popup
-  position: fixed
-  top: 0
-  left: 0
-  width: 100%
-  height: 100%
-  z-index: 9999
-  display: none
-.overlay
-  background-color: black
-  opacity: 0.5
-  width: 100%
-  height: 100%
-  cursor: pointer
-
-.picture
-  width: 100%
-  height: 100%
-  position: absolute
-  top: 0
-  cursor: pointer
-  img
-    width: auto
-    height: 70%
-    position: relative
-    z-index: 9999
-    top: 50px
-    left: 0
-    margin: auto
-    display: block
-    border: solid 5px #fff
-    cursor: pointer
-.previous
-  float: left
-  margin-left: 50px
-.next
-  float: right
-  margin-right: 50px
-
-.controll_block
-  position: relative
-  top: -35%
-.controll
-  width: 77px
-  height: 77px
-  line-height: 1.65
-  background-color: #fff
-  color: #46af72
-  text-align: center
-  font-size: 44px
-  font-family: "HelveticaR"
-  cursor: pointer
-  transition: all ease 0.5s
-  &:hover
-    background-color: #eee
-    color: #41af42
-    box-shadow: 0 0 50px rgba(0,0,0,0.5)

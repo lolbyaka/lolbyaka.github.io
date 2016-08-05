@@ -15,33 +15,39 @@
     <header>
       <div class="container">
         <a href="#"><img src="./img/logo.png" alt="Masaa" class="logo" /></a>
-        <div class="header-content">
-          <h1><span class="spanh">Онлайн мастер-класс</span> <br>5 эффективных <span class="i_text">и</span> бесплатных способов продаж авторских <span class="i_text">и</span> хобби работ</h1>
-          <p>Что бы участвовать - заполните форму</p>
-          <form class="header-form" onsubmit="yaCounter38877785.reachGoal('reg1');">
-            <input type="email" class="header-form_name" name="name" value="" placeholder="Введите ваш email">
-            <input type="submit" class="header-form_submit" name="name" value="Получить доступ"><p>Пропустили вебинар? Вышлем запись на почту!</p>
-          </form>
-          <div class="timer">
-            <p>Предложение действительно еще:</p>
-            <div class="timer_blocks">
-              <div class="timer_block">
-                  <div class="time_text hours">00</div>
-                  <div class="time_description">Часов</div>
-              </div>
-              <div class="timer_block">
-                <div class="time_text minutes">08</div>
-                <div class="time_description">Минут</div>
-              </div>
-              <div class="timer_block">
-                <div class="time_text seconds">46</div>
-                <div class="time_description">Секунд</div>
-              </div>
+        <h1><span class="spanh">Онлайн мастер-класс</span> <br>5 эффективных <span class="i_text">и</span> бесплатных способов продаж авторских <span class="i_text">и</span> хобби работ</h1>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="header-content">
+            <p>Начните учиться живописи уже сейчас!</p>
+            <form class="header-form" onsubmit="yaCounter38877785.reachGoal('reg1');">
+              <input type="email" class="header-form_name" name="name" value="" placeholder="Введите ваш email">
+              <input type="submit" class="header-form_submit" name="name" value="Получить доступ"><p>Пропустили вебинар? Вышлем запись на почту!</p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="timer">
+          <p>Предложение действительно еще:</p>
+          <div class="timer_blocks">
+            <div class="timer_block">
+                <div class="time_text hours">00</div>
+                <div class="time_description">Часов</div>
+            </div>
+            <div class="timer_block">
+              <div class="time_text minutes">08</div>
+              <div class="time_description">Минут</div>
+            </div>
+            <div class="timer_block">
+              <div class="time_text seconds">46</div>
+              <div class="time_description">Секунд</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="ribbon-wrapper-green"><div class="ribbon-green"><a href="#">Зарегистрируйся сегодня - <br> получи в подарок...</a></div></div>
+      <div class="ribbon-wrapper-green"><div class="ribbon-green"><a class="open_modal" href="">Нам 3 года! <br> Успейте получить подарки!</a></div></div>
     </header>
 
     <!-- Result-->
@@ -136,6 +142,21 @@
       </div>
     </footer>
 
+
+    <!--модальное окно-->
+    <div class="modal_bg">
+      <div class="overlay"></div>
+      <div class="container">
+        <form class="promo_form" action="">
+          <div class="close">X</div>
+          <h3><span>Заполните</span> форму <br>для получения доступа</h3>
+          <input type="text" class="header-form_name" name="name" value="" placeholder="Введите ваше имя">
+          <input type="submit" class="header-form_submit"name="name" value="Получить доступ">
+          <p>Ваши данные конфиденциальны</p>
+        </form>
+      </div>
+    </div>
+    <!--\модальное окно-->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/site.js"></script>
     <!-- Yandex.Metrika counter -->
