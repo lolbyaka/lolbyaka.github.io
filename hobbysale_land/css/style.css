@@ -812,4 +812,35 @@ footer .wrap .copyright {
   color: #6f7174;
 }
 
+/* Results */
+.results {
+  padding: 50px 0;
+  background-color: #f7f8f8;
+  text-align: center;
+}
+
+.results_owl {
+  margin: 40px 0;
+}
+
+.result_block {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.result_block img {
+  left: 0;
+  float: left;
+  display: inline-block !important;
+  height: 100%;
+}
+
+.result_block_content {
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=style.css.map */

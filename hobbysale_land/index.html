@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="https://use.fontawesome.com/1026686388.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,100,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   </head>
@@ -429,6 +431,53 @@
       </div>
     </section>
 
+    <!-- Results -->
+    <section class="results">
+      <div class="container">
+        <h2>Результаты наших студентов</h2>
+        <div class="your-class results_owl">
+          <div class="result_block">
+            <img src="./img/result_img_0.png" alt="">
+            <div class="result_block_content">
+              <div class="author_name">Сергей<br><span>графический дизайн</span></div>
+              <div class="author_info">Светлана, хочу поблагодарить Вас за помощь в поиске клиентов. Благодаря
+Вашему обучению мне удалось найти 3 клиентов меньше чем за неделю!
+Ваши подсказки буквально открыли мне глаза на то что находилось у меня
+по носом. Конечно стоит помнить о том, что если не прикладывать усилий,
+то знания так и останутся просто знаниями. Спасибо Вам огромное за за
+направление на цель и добрую, бодрую мотивацию</div>
+            </div>
+          </div>
+          <div class="result_block">
+            <img src="./img/result_img_0.png" alt="">
+            <div class="result_block_content">
+              <div class="author_name">Светлана Новокщенова<br><span>специалист по продвижению, организации продаж и рекламе</span></div>
+              <div class="author_info">В рекламном и издательском бизнесе около 20 лет. Профессионально занимаюсь
+                разработкой рекламных и маркетинговых кампаний для различных сфер бизнеса.<br>
+                <span>Автор обучающих курсов по продажам для хобби-мастеров и специалистов,
+                оказывающих профессиональные услуги.  Бизнес-тренер, веду онлайн и офлайн
+                программы по обучению продажам как в реале, так и с помощью интернета,
+                формированию личного бренда.</span><br>
+                <span>Онлайн мастер-классы по основам монетизации хобби посетило более 4 000 человек.</div></span>
+            </div>
+          </div>
+          <div class="result_block">
+            <img src="./img/result_img_0.png" alt="">
+            <div class="result_block_content">
+              <div class="author_name">Светлана Новокщенова<br><span>специалист по продвижению, организации продаж и рекламе</span></div>
+              <div class="author_info">В рекламном и издательском бизнесе около 20 лет. Профессионально занимаюсь
+                разработкой рекламных и маркетинговых кампаний для различных сфер бизнеса.<br>
+                <span>Автор обучающих курсов по продажам для хобби-мастеров и специалистов,
+                оказывающих профессиональные услуги.  Бизнес-тренер, веду онлайн и офлайн
+                программы по обучению продажам как в реале, так и с помощью интернета,
+                формированию личного бренда.</span><br>
+                <span>Онлайн мастер-классы по основам монетизации хобби посетило более 4 000 человек.</div></span>
+            </div>
+          </div>
+        </div>
+        <input type="button" name="name" class="button" value="Хочу такой же резултат!">
+      </div>
+    </section>
     <!-- Questions -->
     <section class="questions">
       <div class="container">
@@ -508,5 +557,13 @@
       </div>
     </footer>
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function(){
+         $('.your-class').slick();
+       });
+     </script>
   </body>
 </html>
