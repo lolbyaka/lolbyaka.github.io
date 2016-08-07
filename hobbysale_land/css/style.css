@@ -493,9 +493,6 @@ header {
   margin: 0 0 30px 0;
   vertical-align: top;
 }
-.eighth_section-element:nth-child(odd) {
-  margin-right: 100px;
-}
 
 .eighth_section-element_header {
   font-size: 16px;
