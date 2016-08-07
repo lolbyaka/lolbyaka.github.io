@@ -381,6 +381,7 @@ header {
 .hobby p {
   font-size: 14px;
   font-family: "Roboto";
+  font-weight: 500;
   color: #2f2f2f;
   line-height: 1.2;
 }
@@ -410,14 +411,14 @@ header {
 }
 
 .consists_element {
-  width: 40%;
+  width: 45%;
   display: inline-block;
   vertical-align: top;
   margin: 18px 0;
 }
 .consists_element img {
   display: inline-block;
-  width: 16%;
+  width: 20%;
   margin-right: 20px;
 }
 
@@ -527,6 +528,28 @@ header {
   line-height: 1.2;
   text-align: left;
   margin: 10px 0 10px 0;
+}
+
+/* Ninth section */
+.ninth_section {
+  padding: 50px 0;
+  background-color: #f7f8f8;
+}
+
+.ninth_section_container {
+  margin: 35px auto;
+}
+
+.ninth_section-item {
+  width: 33%;
+  display: inline-block;
+}
+.ninth_section-item img {
+  width: 50px;
+  margin-right: 15px;
+}
+.ninth_section-item .consist_add {
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
