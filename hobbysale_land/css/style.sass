@@ -471,3 +471,238 @@ header
     margin-right: 15px
   .consist_add
     margin-top: 5px
+
+/* STEPS */
+.steps
+  padding: 50px 0
+
+.step
+  width: 125px
+  margin: 0 15px
+  display: inline-block
+  position: relative
+  vertical-align: top
+  &:after
+    content: "\f105"
+    font-family: FontAwesome
+    color: #aa5165
+    font-size: 45px
+    position: absolute
+    top: 20px
+    left: 130px
+
+.steps_container
+  text-align: center
+  margin-top: 35px
+
+.hide-arrow
+  &::after
+    content: ""
+
+
+.step_number
+  margin-top: 10px
+  font-size: 18px
+  font-family: "Roboto"
+  color: rgb(47, 47, 47)
+  font-weight: 500
+
+.step_add
+  margin-top: 7px
+  font-size: 13px
+  font-family: "Roboto"
+  color: rgb(109, 109, 109)
+
+/* Join Block 2 */
+.join_block_2
+  padding: 50px 0
+  background-image: url('../img/joim_block_2_bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  h3
+    width: 60%
+    margin: 0
+    font-size: 22px
+    font-family: "Roboto"
+    color: rgb(255, 255, 255)
+    font-weight: bold
+    line-height: 1.2
+    text-align: left
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3)
+    display: inline-block
+    vertical-align: middle
+  .button
+    padding: 5px 35px
+
+
+/* tenth section */
+.tenth_section
+  padding: 50px 0 50px 0
+  position: relative
+  overflow: hidden
+  background-image: url('../img/author_photo.png')
+  background-position: left bottom
+  background-repeat: no-repeat
+  background-color: #f7f8f8
+  img
+    position: absolute
+    bottom: 0
+    z-index: 100
+    left: 0
+  .wrapper
+    float: right
+    width: 50%
+  .left
+    text-align: left
+    &::after
+      left: 0
+      margin: 30px 0 0 0
+
+.author_name
+  margin-top: 25px
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  font-size: 14px
+  color: #883e4f
+  span
+    font-weight: 400
+.author_info
+  font-size: 14px
+  font-family: "Roboto"
+  color: #6d6d6d
+  line-height: 1.2
+  margin-top: 20px
+  span
+    margin-top: 10px
+    display: block
+
+/* questions section */
+.questions
+  padding: 50px 0
+  background-color: #f7f8f8
+  text-align: center
+
+.questions_wrapp .question:nth-child(odd)
+  margin-right: 50px
+
+.questions_wrapp .question:last-child
+  margin-right: 0
+  width: 86%
+
+
+.questions_wrapp
+  text-align: center
+  margin-top: 30px
+
+
+
+.question
+  width: 40%
+  vertical-align: top
+  display: inline-block
+  text-align: left
+  margin-bottom: 50px
+
+.question_header
+  font-size: 16px
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  color: rgb(47, 47, 47)
+  position: relative
+  &:before
+    content: "\f128"
+    position: absolute
+    top: 0px
+    left: -30px
+    line-height: 20px
+    text-align: center
+    padding: 0
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    background-color: #b26e7e
+    font-family: FontAwesome
+    color: #fff
+
+.question_add
+  font-size: 14px
+  font-family: "Roboto"
+  font-weight: 400
+  color: rgb(109, 109, 109)
+  margin-top: 10px
+
+
+/* tenth section */
+.guarantees
+  padding: 50px 0 80px 0
+  position: relative
+  overflow: hidden
+  background-image: url('../img/guarantees_bg.png')
+  background-position: left top
+  background-repeat: no-repeat
+  background-color: #fff
+  .wrapper
+    float: right
+    width: 50%
+  .left
+    text-align: left
+    &::after
+      left: 0
+      margin: 30px 0 0 0
+.guarantees_text
+  margin-top: 30px
+  font-size: 14px
+  font-family: "Roboto", sans-serif
+  color: #6d6d6d
+  line-height: 1.2
+  margin-top: 20px
+  span
+    margin-top: 10px
+    display: block
+
+/* Footer */
+
+footer
+  padding: 30px 0
+  min-width: 980px
+  background-color: #fff
+
+
+footer .container .logo
+  position: relative
+  float: right
+  width: 150px
+  height: auto
+  padding-top: 20px
+  background-repeat: no-repeat
+
+
+footer .footer_info
+  padding-top: 20px
+
+
+footer .footer_info a
+  font-family: "HelveticaR",sans-serif
+  font-size: 13px
+  color: #414141
+  padding: 0 40px 0 0
+  margin: 0
+  text-decoration: none
+
+
+footer .footer_info a:hover
+  color: #d9466c
+
+
+footer .wrap
+  width: 800px
+  float: left
+  height: 100%
+
+
+footer .wrap .copyright
+  padding-top: 25px
+  font-family: "HelveticaR",sans-serif
+  font-size: 12px
+  color: #6f7174
