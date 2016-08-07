@@ -16,6 +16,9 @@ body
   margin: auto
   padding: 0
 
+section
+  min-width: 980px
+
 h1
   font-size: 36px
   font-family: "MyriadProBold", sans-serif
@@ -49,6 +52,8 @@ header
   background-size: cover
   background-position: top center
   padding: 0 0 125px 0
+  min-width: 980px
+  width: 100%
 
 .logo
   display: inline-block
@@ -81,19 +86,20 @@ header
   width: 100%
   border-left: 6px solid #d25973
   margin-top: 100px
-  padding: 10px 0 10px 30px
+  padding: 10px 0 10px 0
   h1
-    margin: 0
+    margin: 0 0 0 30px
   p
     font-size: 20px
     font-family: "MyriadProSemiBold", sans-serif
     color: #fff
     text-align: left
     text-shadow: 0px 1px 2.7px rgba(0, 0, 0, 0.6)
+    margin-left: 30px
     span
+      margin-top: 15px
       font-family: "MyriadProRegular", sans-serif
       font-size: 19px
-      margin-top: 15px
       position: relative
       display: block
 
@@ -165,6 +171,8 @@ header
   font-size: 14px
   font-family: "Roboto"
   color: #fff
+  margin: 0
+  padding: 0
   line-height: 3.266
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4)
 
@@ -197,7 +205,7 @@ header
     background-color: #b26e7e
 
 /* Third Section */
-.third_section
+.join_block_1
   padding: 20px 0
   background-image: url('../img/third_section_bg.png')
   background-position: center
@@ -386,3 +394,61 @@ header
     margin-top: 20px
   img
     margin: 20px auto 0 0
+
+/* Восьмая секция */
+.eighth_section
+  padding: 50px 0
+
+.eighth_section_container
+  text-align: center
+  margin: 50px auto
+
+.left_column
+  display: inline-block
+  width: 40%
+  margin: 0 20px
+  vertical-align: top
+
+
+.right_column
+  display: inline-block
+  width: 40%
+  margin: 0 20px
+  vertical-align: top
+
+.eighth_section-element
+  width: 100%
+  display: inline-block
+  margin: 0 0 30px 0
+  vertical-align: top
+  &:nth-child(odd)
+    margin-right: 100px
+.eighth_section-element_header
+  font-size: 16px
+  font-family: "Roboto"
+  font-weight: 500
+  color: rgb(47, 47, 47)
+  line-height: 1.2
+  text-align: left
+  position: relative
+  display: block
+  &:before
+    content: ""
+    position: absolute
+    top: 5px
+    left: -20px
+    line-height: 1.8em
+    padding: 0
+    width: 9px
+    height: 9px
+    border-radius: 50%
+    background-color: #b26e7e
+
+.eighth_section-element_add
+  font-size: 13px
+  font-family: "Roboto", sans-serif
+  font-weight: 300
+  color: rgb(109, 109, 109)
+  line-height: 1.2
+  text-align: left
+  margin: 10px 0 10px 0
