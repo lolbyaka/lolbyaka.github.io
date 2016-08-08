@@ -851,6 +851,9 @@ footer .wrap .copyright {
   text-align: center;
 }
 
+.testimonial:focus {
+  outline: none;
+}
 .testimonial .author_name {
   font-size: 18px;
   font-family: "Roboto";
