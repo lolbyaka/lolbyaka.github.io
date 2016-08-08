@@ -460,6 +460,7 @@ header {
   margin-top: 20px;
 }
 .certificate img {
+  width: 60%;
   margin: 20px auto 0 0;
 }
 
