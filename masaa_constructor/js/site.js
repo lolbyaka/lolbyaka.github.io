@@ -37,14 +37,45 @@ function parseTime(time_count){
         $('div.seconds').text("0"+secs%10);
       }
   }
-      $(document).ready(function(){
-        setInterval(function(){
-          time_left--;
-          parseTime(time_left);
-          if(time_left <= 0){
-            $('div.hours').text("00");
-            $('div.seconds').text("00");
-            $('div.minutes').text("00");
-          }
-        }, 1000);
+    $(document).ready(function(){
+      var email = $('.free_form').children('.email'),
+          name = $('.free_form').children('.name'),
+          phone = $('.free_form').children('.phone'),
+          current_step = 0;
+          submit = $('.submit_btn');
+      if(current_step==0){
+        email.hide();
+        phone.hide();
+      }
+      submit.hide();
+
+      setInterval(function(){
+        time_left--;
+        parseTime(time_left);
+        if(time_left <= 0){
+          $('div.hours').text("00");
+          $('div.seconds').text("00");
+          $('div.minutes').text("00");
+        }
+      }, 1000);
+      $('.form_btn').click(function(){
+        switch (current_step) {
+          case 0:
+            name.hide(200);
+            email.show(200);
+            current_step=1;
+            break;
+          case 1:
+            email.hide(200);
+            $(this).hide();
+            phone.show(200);
+            submit.show(200);
+            break;
+          case 2:
+            alert( 'Перебор' );
+            break;
+          default:
+            break;
+        }
+      });
     });

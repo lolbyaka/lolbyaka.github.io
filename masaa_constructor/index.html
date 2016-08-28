@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="owl-carousel/owl.theme.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="/js/site.js"></script>
+    <script src="./js/site.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src="owl-carousel/owl.carousel.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -92,7 +92,7 @@
     </section>
 
     <!-- Третья секция -->
-    <section class="third_section">
+    <section class="third_section clearfix">
       <div class="container">
         <h2>Что входит в сборник?</h2>
         <div class="disk_wrap">
@@ -117,6 +117,21 @@
             <h3>Название столбца</h3>
             <p>Познаете себя, найдете свое предназначение, реализуете желания. Бесплатные семинары и практики.</p>
           </div>
+          <div class="disk_content">
+            <div class="disk_content_img">
+              <img src="./img/section_3_img.png" alt="">
+            </div>
+            <h3>Название столбца</h3>
+            <p>Познаете себя, найдете свое предназначение, реализуете желания. Бесплатные семинары и практики.</p>
+          </div>
+          <div class="disk_content">
+            <div class="disk_content_img">
+              <img src="./img/section_3_img.png" alt="">
+            </div>
+            <h3>Название столбца</h3>
+            <p>Познаете себя, найдете свое предназначение, реализуете желания. Бесплатные семинары и практики.</p>
+          </div>
+
         </div>
       </div>
     </section>
@@ -496,7 +511,7 @@
     <section class="free_block">
       <div class="container">
         <h2>Свободный блок</h2>
-        <div class="free_block_container">
+        <div class="free_block_container clearfix">
           <div class="price_block">
             <div class="price">
               <div class="price_text">Стоимость</div>
@@ -506,8 +521,36 @@
               <img src="./img/price_new.png" alt="" class="price_old_img">
             </div>
             <a class="button" href="#">Заказать</a>
+            <div class="bonus_price clearfix">Есть личный кабинет? Начислим <span>50 баллов</span> за покупку</div>
         </div>
-        <div class="bonus_price">Есть личный кабинет?<br>Начислим <span>50 баллов</span> за покупку</div>
+      </div>
+      <div class="form_container">
+        <div class="price_block">
+          <div class="price">
+            <div class="price_text">Стоимость</div>
+            <div class="old_price">2,450</div>
+            <img src="./img/price_old.png" alt="" class="price_old_img">
+            <div class="new_price">1750</div>
+            <img src="./img/price_new.png" alt="" class="price_old_img">
+          </div>
+        </div>
+          <form action='' class="free_form" method='post'>
+            <div class="step name">
+              <input type='text' class="input" name='name' class="input" placeholder='Имя'>
+              <div class="step_add">Как к вам обращаться?</div>
+            </div>
+            <div class="step email">
+              <input type='email' class="input" name='email' class="input" placeholder='E-mail'>
+              <div class="step_add">На этот адрес будет отправлен доступ</div>
+            </div>
+            <div class="step phone">
+              <input type='' class="input" name='phone' class="input" placeholder='Телефон'>
+              <div class="step_add">На него перезвонит менеджер</div>
+            </div>
+            <input type="button" class="button form_btn" value="Заказать">
+            <input type="submit" class="button form_btn submit_btn" value="Заказать">
+            <div class="bonus_price clearfix">Есть личный кабинет? Начислим <span>50 баллов</span> за покупку</div>
+          </form>
       </div>
       </div>
     </section>
