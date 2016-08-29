@@ -28,6 +28,7 @@ header
   background-size: cover
   background-position: center
   padding: 15px 0 45px 0
+  height: 100vh
   width: 100%
   h1
     font-size: 29px
@@ -48,33 +49,38 @@ header
   float: left
 
 .head_logo
-  width: 125px
-  margin: auto
-  position: relative
-  display: block
-  left: -15px
+  display: inline-block
 
 .logo_text
-  top: -5px
+  display: inline-block
   color: #fff
-  font-size: 14px
+  font-size: 13px
   font-weight: 300
-  margin: auto
+  left: 70px
   position: relative
-  width: 320px
+  text-align: left
   span
-    font-size: 16px
+    font-size: 15px
     font-weight: 400
+  &::before
+    content: ""
+    border: 1px solid rgba(248, 248, 248, 0.5)
+    position: relative
+    width: 0
+    height: 44px
+    display: inline-block
+    top: 27px
+    left: -32px
 
 .user_area
   float: right
   font-weight: 500
   font-size: 15px
-  top: -42px
+  top: 35px
   line-height: 30px
   color: #fff
   text-decoration: none
-  &::before
+  &::after
     content: ""
     background-image: url(../img/user_area.png)
     background-repeat: none
@@ -82,10 +88,10 @@ header
     background-size: contain
     position: relative
     display: inline-block
-    height: 24px
-    width: 20px
+    height: 29px
+    width: 29px
     vertical-align: middle
-    margin-right: 15px
+    margin-right: 10px
     margin-left: 10px
 
 .button
@@ -94,7 +100,7 @@ header
   font-size: 20px
   text-decoration: none
   background-color: #ff7200
-  padding: 13px 25px
+  padding: 13px 45px
   border-radius: 23.5px
   margin: 25px 0 0 0
   position: relative
@@ -117,14 +123,13 @@ header
 
 .timer_t
   display: inline-block
-  margin-top: 15px
-  margin-right: 5px
+  margin: 15px 7.5px 0px 7.5px
   border-radius: 3px
   background-color: #fff
-  width: 74px
-  height: 74px
-  line-height: 74px
-  font-size: 30px
+  width: 50px
+  height: 50px
+  line-height: 50px
+  font-size: 27px
   color: rgb(82, 82, 82)
   font-weight: 700
   position: relative
@@ -133,13 +138,27 @@ header
   &::after
     content: "Hours"
     color: #fff
-    font-size: 12px
+    font-family: "Roboto", sans-serif
     font-weight: 500
-    top: 50px
-    left: 18px
+    font-size: 20px
+    top: 40px
+    transform: matrix( 0.64930555555556,0,0,0.64495395708024,0,0)
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7)
     position: absolute
 
+.hours
+  &::after
+    content: "Hours"
+    left: -2px
+
+.minutes
+  &::after
+    content: "minutes"
+    left: -12px
+.seconds
+  &::after
+    content: "seconds"
+    left: -13px
 /* Вторая секция */
 .second_section
   padding: 45px 0
@@ -238,7 +257,7 @@ header
   top: -15px
   .bonus_price
     position: relative
-    top: 35px
+    top: 57px
     left: 32px
   a
     display: inline-block
@@ -306,19 +325,20 @@ h2
     position: relative
     display: block
     margin: 20px auto 30px auto
-.disk_wrapp
+.disk_wrap
   border: 0
   margin: 0.3em 0.15em
   padding: 0
   display: inline-block
   vertical-align: top
 .disk_content
-  width: 30%
+  width: 28%
   height: 275px
   position: relative
   text-align: left
   display: inline-block
   float: left
+  margin: 0px 25px
   .disk_content_img
     width: 270px
     height: 150px
@@ -352,7 +372,8 @@ h2
   overflow: hidden
   position: relative
   display: inline-block
-  margin: 0 7px 14px 7px
+  margin: 15px
+  float: left
   h3
     margin-left: 10px
     position: absolute
@@ -409,11 +430,9 @@ h2
     position: relative
     display: inline-block
     border-radius: 100%
-    background-image: url("../img/second_section_bullet_1.png")
-    background-position: center
-    background-size: contain
-    width: 18px
-    auto
+    background-color: #da6c00
+    width: 6px
+    height: 6px
     margin-right: 10px
     top: -3px
 
@@ -456,9 +475,11 @@ h2
   padding: 45px 0
 
 .price_table_block
+  vertical-align: top
   transition: ease 0.5s
   &:hover
-    box-shadow: 0px 1px 5px 5px rgba(2, 2, 2, 0.10)
+    box-shadow: 0px 1px 40px 5px rgba(2, 2, 2, 0.1)
+    transform: scale(1.05)
   border-radius: 3px
   background-color: #fff
   box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
@@ -489,7 +510,9 @@ h2
   position: relative
   display: block
   text-align: left
-
+.price_wrap
+  bottom: 0
+  position: relative
 .price_table_block
   display: inline-block
   margin: 0px 10px
