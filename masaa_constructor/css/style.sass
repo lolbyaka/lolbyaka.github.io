@@ -625,11 +625,6 @@ h2
     top: 0
     left: 0
 
-
-
-
-
-
 .reviews
   padding: 45px 0
   background-color: #f7f7f7
@@ -864,3 +859,746 @@ h2
     width: 100%
     cursor: pointer
     height: 100%
+
+
+/* АДАПТИВ */
+
+body
+  padding: 0
+  margin: 0
+  left: 0
+  top: 0
+  font-family: "Roboto", sans-serif
+  font-weight: 400
+  font-size: 13px
+  color: #fff
+
+@media screen and (max-width: 810px)
+  .container
+    width: 320px
+    margin: auto
+    text-align: center
+
+  /* Шапка */
+
+  header
+    background-image: url(../img/header_bg_img.jpg)
+    background-size: cover
+    background-position: center
+    height: auto
+    width: 100%
+    h1
+      font-size: 18px
+      margin: 160px auto 0 auto
+      text-shadow: 0px 2px 3px rgba(0, 0, 2, 0.7)
+    p
+      margin: 5px auto 0 auto
+      width: 80%
+      font-size: 13px
+      text-shadow: 0px 2px 1px rgba(0, 0, 2, 0.7)
+
+  .navigation
+    padding-top: 5px
+    a
+      position: relative
+      display: block
+      width: 100%
+      margin-top: 0
+    .user_area
+      display: none
+  .logo
+    float: left
+
+  .head_logo
+    width: 105px
+  .logo_text
+    font-size: 12px
+    left: 13px
+    &::before
+      left: -10px
+  .button
+    color: #fff
+    font-weight: 500
+    font-size: 20px
+    text-decoration: none
+    background-color: #ff7200
+    padding: 13px 25px
+    border-radius: 23.5px
+    margin: 25px 0 0 0
+    position: relative
+    display: inline-block
+    text-align: center
+
+  .timer_block
+    width: 75%
+    margin: 110px auto 0 auto
+
+  .t_text
+    font-size: 18px
+    font-weight: 700
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9)
+
+
+
+  /* Вторая секция */
+  .second_section
+    padding: 45px 0 80px 0
+    background-image: linear-gradient( to right, #e4e4e4 0%, #fff 100%)
+    display: block
+    .whats_get
+      width: 100%
+      margin: 0 auto
+      position: relative
+      h2
+        margin-left: 0px
+        color: #414141
+        font-size: 25px
+        font-weight: 700
+        text-align: center
+        width: 100%
+        position: relative
+        &::after
+          content: ""
+          width: 75px
+          height: 5px
+          background-color: #d4810c
+          position: relative
+          margin: 20px auto
+  .bullet
+    text-align: center
+    margin-top: 15px
+
+    img
+      display: inline-block
+      width: 18px
+      height: auto
+      margin-right: 5px
+      vertical-align: top
+      margin-top: 2px
+    .bullet_text
+      line-height: 18px
+      display: inline-block
+      color: #525252
+      font-size: 15px
+      font-weight: 500
+      text-align: left
+      width: 80%
+      vertical-align: super
+
+  .second_section_line
+    margin-top: 395px
+    width: 100%
+    height: 80px
+    color: #414141
+    background-color: #fff
+    position: relative
+    display: block
+    .price_block
+      height: 80px
+      width: 100%
+      float: right
+      top: -480px
+      position: relative
+      .bonus_price
+        display: none
+      a
+        display: inline-block
+        position: absolute
+        padding: 7px 25px
+        margin-top: 21px
+        left: 0
+        position: relative
+      .price
+        position: relative
+        display: inline-block
+        width: 50%
+        height: 100%
+        left: 0
+        float: right
+        .price_text
+          margin-top: 20px
+          color: #414141
+          font-size: 13px
+          font-weight: 600
+        .old_price
+          display: inline-block
+          vertical-align: top
+          line-height: 12px
+          font-size: 14px
+          font-weight: 400
+          margin-top: 6px
+          color: #696969
+        .price_old_img
+          display: inline-block
+          top: 7px
+          left: -3px
+          position: relative
+          vertical-align: top
+        .new_price
+          margin-top: 5px
+          display: inline-block
+          color: #ec8200
+          font-size: 27px
+          font-weight: 600
+          line-height: 22px
+        .price_new_img
+          display: inline-block
+          top: 7px
+          left: -3px
+          position: relative
+          vertical-align: top
+    .discount_block
+
+      width: 100%
+      height: 480px
+      position: relative
+      top: -400px
+      .discont
+        width: 120px
+        height: 80px
+        background-color: #ff7200
+        position: absolute
+        bottom: 0
+        border-radius: 5px 0 0 5px
+        .t
+          color: #fff
+          font-weight: 500
+          font-size: 13px
+          margin: 5px 0 0 18px
+          span
+            font-weight: 600
+            font-size: 43px
+        &::after
+          content: ""
+          width: 0
+          height: 0
+          position: absolute
+          left: 120px
+          top: 0
+          border-style: solid
+          border-width: 40px 0 40px 15px
+          border-color: transparent transparent transparent #ff7300
+
+  .d_img
+    bottom: -28px
+    position: relative
+    width: 100%
+    left: 0
+  .price_block
+    height: 80px
+    width: 320px
+    float: right
+    position: relative
+    a
+      display: inline-block
+      position: absolute
+      padding: 7px 25px
+      margin-top: 21px
+      left: 170px
+    .price
+      position: absolute
+      display: inline-block
+      width: 40%
+      height: 100%
+      left: 0
+      .price_text
+        margin-top: 20px
+        color: #414141
+        font-size: 13px
+        font-weight: 600
+      .old_price
+        display: inline-block
+        vertical-align: top
+        line-height: 12px
+        font-size: 14px
+        font-weight: 400
+        margin-top: 6px
+        color: #696969
+      .price_old_img
+        display: inline-block
+        top: 7px
+        left: -3px
+        position: relative
+        vertical-align: top
+      .new_price
+        margin-top: 5px
+        display: inline-block
+        color: #ec8200
+        font-size: 27px
+        font-weight: 600
+        line-height: 22px
+      .price_new_img
+        display: inline-block
+        top: 7px
+        left: -3px
+        position: relative
+        vertical-align: top
+
+
+  /* Третья секция*/
+  .third_section
+    background-color: #fff
+    padding: 45px 0
+  h2
+    margin: 0 auto
+    color: #414141
+    font-size: 25px
+    font-weight: 700
+    text-align: center
+    width: 100%
+    position: relative
+    &::after
+      content: ""
+      width: 75px
+      height: 5px
+      background-color: #d4810c
+      position: relative
+      display: block
+      margin: 20px auto 30px auto
+
+  .disk_wrap
+    display: block
+  .disk_content_first
+    position: relative
+    top: -75px
+
+
+  .disk_content
+    width: 87%
+    height: 275px
+    position: relative
+    text-align: left
+    display: block
+    margin: 20px auto
+    top: 0
+    float: none
+    .disk_content_img
+      width: 100%
+      height: 150px
+      border-radius: 4px
+      overflow: hidden
+      img
+        width: 100%
+        height: auto
+        top: -60px
+        position: relative
+    h3
+      width: 270px
+      color: #414141
+      font-size: 15px
+      font-weight: bold
+    p
+      width: 270px
+      color: #525252
+      font-size: 12px
+      font-weight: 400
+
+  /* Четвертая секция */
+  .guarantees
+    background-color: #eee
+    padding: 45px 0
+
+  .result_block
+    width: 100%
+    height: 230px
+    border-radius: 4px
+    overflow: hidden
+    position: relative
+    display: inline-block
+    margin: 0 7px 14px 0
+    h3
+      margin-left: 10px
+      position: absolute
+      bottom: 65px
+      text-shadow: 0px 2px 1px rgba(2, 2, 2, 0.75)
+      font-size: 19px
+      text-align: left
+    p
+      margin-left: 10px
+      position: absolute
+      bottom: 10px
+      text-align: left
+      text-shadow: 0px 2px 1px rgba(2, 2, 2, 0.75)
+  .img-overlay
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,.45)
+    top: 0
+    left: 0
+    margin: 0
+    position: absolute
+
+
+  /* Пятая секция */
+  .bonus
+    padding: 45px 0
+    img
+      display: inline-block
+      position: relative
+      top: -10px
+      vertical-align: top
+      margin-right: 40px
+      width: 113px
+      height: 110px
+      margin: auto
+  .bonus_description
+    min-height: 110px
+    position: relative
+  .bonus_bullets
+    display: inline-block
+    position: relative
+    text-align: left
+    top: 0
+    margin-top: 35px
+  .t_block
+    img
+      top: 0
+      width: 18px
+      height: auto
+      margin-right: 10px
+  .b_bullet
+    font-size: 15px
+    color: #525252
+    &::before
+      content: ""
+      position: relative
+      display: inline-block
+      border-radius: 100%
+      background-color: #da6c00
+      width: 6px
+      height: 6px
+      margin-right: 10px
+      top: -3px
+
+
+
+  /* Авторы */
+  .author
+    padding: 45px 0
+
+  .author_container
+    img
+      width: 200px
+      height: 200px
+      border-radius: 100%
+      display: inline-block
+      margin-right: 0
+
+  .author_bullets
+    display: inline-block
+    top: 30px
+    position: relative
+    text-align: left
+
+  .author_name
+    padding: 10px 25px
+    background-color: #da6c00
+    font-size: 21px
+    font-weight: 700
+    color: #fff
+    min-width: 50px
+    max-width: 320px
+    display: block
+    margin-bottom: 25px
+    text-align: center
+
+
+
+  .price_table
+    background-color: #f7f7f7
+    padding: 45px 0
+
+  .price_table_block
+    transition: ease 0.5s
+    &:hover
+      box-shadow: 0px 1px 5px 5px rgba(2, 2, 2, 0.10)
+    border-radius: 3px
+    background-color: #fff
+    box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
+    overflow: hidden
+    width: 274px
+    min-height: 366px
+    max-height: 800px
+
+  .price_table_header
+    width: 100%
+    height: 50px
+    background-color: #858585
+    line-height: 50px
+    font-size: 21px
+    color: #fff
+    font-weight: bold
+    text-align: center
+    text-shadow: 0px 1px 1px rgba(2, 2, 2, 0.55)
+
+
+  .price_block_container
+    width: 80%
+    left: 50%
+    margin-left: -40%
+    position: relative
+    display: block
+    text-align: left
+    padding-top: 20px
+
+  .price_table_block
+    display: inline-block
+    margin: 0px auto 25px auto
+    width: 85%
+    .price_block
+      width: 100%
+      float: none
+      .price
+        position: relative
+        display: block
+        width: 100%
+        height: 60%
+        .old_price
+          font-size: 17px
+          text-decoration: line-through
+      a
+        display: block
+        position: relative
+        width: 100%
+        padding: 7px 0
+        margin: 20px 0 0 0
+        left: 0
+
+  .bonus_price
+    margin-top: 36px
+    color: #525252
+    text-align: center
+    font-size: 13px
+    span
+      color: #c8610d
+
+
+
+  .video
+    padding: 45px 0
+    iframe
+      display: inline-block
+      margin-right: 0px
+      width: 100%
+      height: auto
+
+  .video_descr
+    display: inline-block
+    position: relative
+    vertical-align: top
+    width: 320px
+    text-align: left
+    h2
+      text-align: left
+      &::after
+        margin: 20px 0 30px 0
+  .descr
+    color: #525252
+    text-align: left
+    font-size: 15px
+
+
+
+
+  .gallery
+    padding: 45px 0
+  .gallery_container
+    width: 100%
+
+  .gallery-slider
+    .item
+      img
+        display: inline-block
+        width: 100%
+        vertical-align: top
+        height: auto
+
+
+  #owl-demo .item
+    margin: 3px
+  #owl-demo .item img
+    display: block
+    width: 100%
+    height: auto
+
+
+
+  .reviews
+    padding: 45px 0
+    background-color: #f7f7f7
+
+  .rew_type_1
+    display: inline-block
+    border-radius: 3px
+    background-color: #fff
+    box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
+    width: 80%
+    height: 210px
+    margin: 0 auto 10px auto
+    position: relative
+    padding: 30px 23px
+    vertical-align: top
+    .p_rew
+      color: #525252
+      font-weight: 300
+      font-size: 13px
+      text-align: left
+      margin-bottom: 25px
+
+    .p_name
+      color: #414141
+      font-size: 15px
+      font-weight: bold
+      text-align: left
+    .p_city
+      color: #414141
+      font-size: 12px
+      font-weight: 400
+      text-align: left
+    .p_date
+      position: absolute
+      bottom: 30px
+      color: #9c9c9c
+      font-size: 12px
+      font-weight: 400
+      text-align: left
+
+  .rew_type_2
+    display: inline-block
+    border-radius: 3px
+    background-color: #fff
+    box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
+    width: 80%
+    height: 210px
+    margin: 0 auto 10px auto
+    position: relative
+    padding: 30px 23px
+    vertical-align: top
+    .p_img
+      border-radius: 100%
+      text-align: left
+      background-color: #f7f7f7
+      width: 60px
+      height: 60px
+      display: inline-block
+      float: left
+    .p_name_container
+      display: inline-block
+      height: 60px
+      vertical-align: top
+      top: 11px
+      left: -35px
+      position: relative
+    .p_rew
+      margin-top: 20px
+      color: #525252
+      font-weight: 300
+      font-size: 13px
+      text-align: left
+      margin-bottom: 25px
+
+    .p_name
+      color: #414141
+      font-size: 15px
+      font-weight: bold
+      text-align: left
+    .p_city
+      color: #414141
+      font-size: 12px
+      font-weight: 400
+      text-align: left
+    .p_date
+      position: absolute
+      bottom: 30px
+      color: #9c9c9c
+      font-size: 12px
+      font-weight: 400
+      text-align: left
+
+
+  .rew_type_3
+    display: inline-block
+    border-radius: 3px
+    background-color: #fff
+    box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
+    width: 80%
+    height: 210px
+    margin: 0 auto 10px auto
+    position: relative
+    padding: 30px 23px
+    vertical-align: top
+
+
+  .rew_type_4
+    overflow: hidden
+    display: inline-block
+    border-radius: 3px
+    background-color: #fff
+    box-shadow: 0px 1px 3px 0px rgba(2, 2, 2, 0.15)
+    width: 80%
+    height: 210px
+    margin: 0 auto 10px auto
+    position: relative
+    padding: 30px 23px
+    vertical-align: top
+    .img_cont
+      width: 100%
+      height: 100%
+      background-color: #e3e3e3
+      overflow: hidden
+      img
+        width: auto
+        height: 100%
+        left: -70px
+        margin: auto
+        position: relative
+
+  #owl-demo_2
+    .item
+      img
+        width: auto
+        height: 100%
+        left: -70px
+        margin: auto
+        position: relative
+
+
+  .gallery_container
+    width: 100%
+
+  .gallery-slider
+    width: 100%
+    .item
+      height: 250px
+      margin: 0 10px
+      opacity: 0.5
+      transition: 0.1s ease-out 0.1s
+      position: relative
+      img
+        display: inline-block
+        width: auto
+        vertical-align: top
+        height: 370px
+
+  .free_block
+    .price_block
+      a
+        width: 100%
+  .form_container
+    width: 90%
+    .price_block
+      margin-top: 0px
+
+  .step
+    width: 100%
+  .input
+    width: 98%
+    float: none
+    margin: auto
+    display: block
+    position: relative
+  .step_add
+    width: 100%
+    text-align: center
+  .form_btn
+    width: 100%
