@@ -331,5 +331,196 @@ template, [hidden] {
 /**
  * Add the correct display in IE 10-. */
 /* End normalize CSS */
+header {
+  background-color: #fff;
+  padding: 25px 0 23px 0;
+  border-bottom: 5px solid #f1f1f1; }
+  header nav ul {
+    padding: 0; }
+    header nav ul li {
+      display: inline-block;
+      margin-left: 45px; }
+      header nav ul li a {
+        font-size: 16px;
+        font-family: "HeliosRegular";
+        color: #a4a4a4;
+        position: relative;
+        -webkit-transition: all 0.5s;
+                transition: all 0.5s; }
+        header nav ul li a::after {
+          position: absolute;
+          width: 100%;
+          content: "";
+          display: none;
+          bottom: -10px;
+          height: 4px;
+          background-color: #75bdb5; }
+        header nav ul li a:hover {
+          color: #000; }
+          header nav ul li a:hover::after {
+            display: block; }
+
+.main {
+  background-image: url("../img/main-screen_bg.jpg");
+  height: 710px;
+  background-position: top center;
+  background-size: cover;
+  position: relative; }
+  .main .main-text {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 560px;
+    right: 35px; }
+    .main .main-text h1 {
+      margin: 0;
+      font-size: 26px;
+      font-family: "HeliosBlack";
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.5;
+      text-align: left; }
+    .main .main-text p {
+      font-size: 16px;
+      font-family: "HeliosRegular";
+      color: white;
+      line-height: 1.5;
+      text-align: left; }
+
+.about-company {
+  background-image: url("../img/about_bg.png");
+  background-position: top right -226px;
+  background-size: 67%;
+  background-repeat: no-repeat; }
+  .about-company h2 {
+    font-size: 22px;
+    display: inline-block;
+    font-family: "HeliosRegular";
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.773;
+    text-align: center;
+    position: relative;
+    margin: 23px auto; }
+    .about-company h2::before {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      content: "";
+      position: absolute;
+      left: -110px;
+      background-image: -webkit-linear-gradient(180deg, #dadada 0%, #ededed 51%, white 100%);
+      background-image: linear-gradient(-90deg, #dadada 0%, #ededed 51%, white 100%);
+      width: 91px;
+      height: 4px; }
+    .about-company h2::after {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      content: "";
+      position: absolute;
+      right: -110px;
+      background-image: -webkit-linear-gradient(0deg, #dadada 0%, #ededed 51%, white 100%);
+      background-image: linear-gradient(90deg, #dadada 0%, #ededed 51%, white 100%);
+      width: 91px;
+      height: 4px; }
+  .about-company h3 {
+    font-size: 18px;
+    font-family: "HeliosBlack";
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: left; }
+  .about-company p {
+    font-size: 16px;
+    font-family: "HeliosRegular";
+    color: black;
+    line-height: 1.5;
+    text-align: left; }
+
+.services {
+  background-color: #49beba;
+  padding-bottom: 40px; }
+  .services .services-header {
+    text-align: center;
+    background-color: #49cac6;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px; }
+    .services .services-header h2 {
+      font-size: 22px;
+      font-family: "HeliosRegular";
+      color: white;
+      text-transform: uppercase;
+      line-height: 1.773;
+      display: inline-block;
+      position: relative; }
+      .services .services-header h2::before {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        content: "";
+        position: absolute;
+        left: -110px;
+        background-image: -webkit-linear-gradient(0deg, #49cac6 0%, #a4e5e3 49%, white 100%);
+        background-image: linear-gradient(90deg, #49cac6 0%, #a4e5e3 49%, white 100%);
+        width: 91px;
+        height: 4px; }
+      .services .services-header h2::after {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        content: "";
+        position: absolute;
+        right: -110px;
+        background-image: -webkit-linear-gradient(180deg, #49cac6 0%, #a4e5e3 49%, white 100%);
+        background-image: linear-gradient(-90deg, #49cac6 0%, #a4e5e3 49%, white 100%);
+        width: 91px;
+        height: 4px; }
+  .services .services-content .service-element {
+    padding-left: 185px;
+    position: relative;
+    margin: 25px 0; }
+    .services .services-content .service-element .service-element__icon {
+      position: absolute;
+      left: 45px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      border-style: solid;
+      border-width: 2px;
+      border-color: #a5e5de;
+      border-radius: 50%;
+      background-color: rgba(84, 197, 187, 0);
+      width: 105px;
+      height: 105px; }
+      .services .services-content .service-element .service-element__icon img {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); }
+    .services .services-content .service-element .service-element__header {
+      font-size: 22px;
+      font-family: "HeliosBlack";
+      color: #a5e5de;
+      text-transform: uppercase;
+      line-height: 1.273;
+      text-align: left; }
+    .services .services-content .service-element .service-element__description {
+      font-size: 16px;
+      font-family: "HeliosRegular";
+      color: #a5e5de;
+      line-height: 1.375;
+      text-align: left; }
 
 /*# sourceMappingURL=main.css.map */

@@ -384,3 +384,181 @@ template, [hidden]
 /**
  * Add the correct display in IE 10-.
 /* End normalize CSS */
+
+
+header
+  background-color: #fff
+  padding: 25px 0 23px 0
+  border-bottom: 5px solid #f1f1f1
+  nav
+    ul
+      padding: 0
+      li
+        display: inline-block
+        margin-left: 45px
+        a
+          font-size: 16px
+          font-family: "HeliosRegular"
+          color: rgb(164, 164, 164)
+          position: relative
+          transition: all 0.5s
+          &::after
+            position: absolute
+            width: 100%
+            content: ""
+            display: none
+            bottom: -10px
+            height: 4px
+            background-color: rgb(117, 189, 181)
+
+          &:hover
+            color: #000
+            &::after
+              display: block
+
+.main
+  background-image: url("../img/main-screen_bg.jpg")
+  height: 710px
+  background-position: top center
+  background-size: cover
+  position: relative
+  .main-text
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: 560px
+    right: 35px
+    h1
+      margin: 0
+      font-size: 26px
+      font-family: "HeliosBlack"
+      color: rgb(255, 255, 255)
+      font-weight: bold
+      text-transform: uppercase
+      line-height: 1.5
+      text-align: left
+    p
+      font-size: 16px
+      font-family: "HeliosRegular"
+      color: rgb(255, 255, 255)
+      line-height: 1.5
+      text-align: left
+
+.about-company
+  background-image: url("../img/about_bg.png")
+  background-position: top right -226px
+  background-size: 67%
+  background-repeat: no-repeat
+  h2
+    font-size: 22px
+    display: inline-block
+    font-family: "HeliosRegular"
+    color: rgb(0, 0, 0)
+    text-transform: uppercase
+    line-height: 1.773
+    text-align: center
+    position: relative
+    margin: 23px auto
+    &::before
+      top: 50%
+      transform: translateY(-50%)
+      content: ""
+      position: absolute
+      left: -110px
+      background-image: linear-gradient( -90deg, rgb(218,218,218) 0%, rgb(237,237,237) 51%, rgb(255,255,255) 100%)
+      width: 91px
+      height: 4px
+    &::after
+      top: 50%
+      transform: translateY(-50%)
+      content: ""
+      position: absolute
+      right: -110px
+      background-image: linear-gradient( 90deg, rgb(218,218,218) 0%, rgb(237,237,237) 51%, rgb(255,255,255) 100%)
+      width: 91px
+      height: 4px
+  h3
+    font-size: 18px
+    font-family: "HeliosBlack"
+    color: rgb(0, 0, 0)
+    font-weight: bold
+    text-transform: uppercase
+    line-height: 1.5
+    text-align: left
+  p
+    font-size: 16px
+    font-family: "HeliosRegular"
+    color: rgb(0, 0, 0)
+    line-height: 1.5
+    text-align: left
+
+.services
+  background-color: rgb(73, 190, 186)
+  padding-bottom: 40px
+  .services-header
+    text-align: center
+    background-color: rgb(73, 202, 198)
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15)
+    margin-bottom: 25px
+    h2
+      font-size: 22px
+      font-family: "HeliosRegular"
+      color: rgb(255, 255, 255)
+      text-transform: uppercase
+      line-height: 1.773
+      display: inline-block
+      position: relative
+      &::before
+        top: 50%
+        transform: translateY(-50%)
+        content: ""
+        position: absolute
+        left: -110px
+        background-image: linear-gradient( 90deg, rgb(73,202,198) 0%, rgb(164,229,227) 49%, rgb(255,255,255) 100%)
+        width: 91px
+        height: 4px
+      &::after
+        top: 50%
+        transform: translateY(-50%)
+        content: ""
+        position: absolute
+        right: -110px
+        background-image: linear-gradient( -90deg, rgb(73,202,198) 0%, rgb(164,229,227) 49%, rgb(255,255,255) 100%)
+        width: 91px
+        height: 4px
+  .services-content
+    .service-element
+      padding-left: 185px
+      position: relative
+      margin: 25px 0
+      .service-element__icon
+        position: absolute
+        left: 45px
+        top: 50%
+        transform: translateY(-50%)
+        border-style: solid
+        border-width: 2px
+        border-color: rgb(165, 229, 222)
+        border-radius: 50%
+        background-color: rgba(84, 197, 187, 0)
+        width: 105px
+        height: 105px
+        img
+          position: absolute
+          top: 50%
+          left: 45%
+          transform: translate(-50%,-50%)
+
+      .service-element__header
+        font-size: 22px
+        font-family: "HeliosBlack"
+        color: rgb(165, 229, 222)
+        text-transform: uppercase
+        line-height: 1.273
+        text-align: left
+      .service-element__description
+        font-size: 16px
+        font-family: "HeliosRegular"
+        color: rgb(165, 229, 222)
+        line-height: 1.375
+        text-align: left
