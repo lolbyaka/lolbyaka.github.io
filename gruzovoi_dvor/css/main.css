@@ -631,10 +631,14 @@ header {
       cursor: pointer; }
 
 .photo {
-  background-image: url("../img/photo-gallery.jpg");
-  height: 750px;
-  background-position: center;
-  background-size: cover; }
+  overflow: hidden; }
+  .photo .img-wrapper {
+    width: 103%;
+    overflow: hidden; }
+  .photo img {
+    display: inline-block;
+    margin: 0 -2px;
+    padding: 0; }
 
 .second-form {
   background-image: url("../img/second-form_bg.jpg");

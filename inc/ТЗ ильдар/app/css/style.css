@@ -15,6 +15,45 @@ body {
 	background: #fff;
 }
 
+
+.calc-label {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 80%;
+	font-size: .9rem;
+	color: #555;
+}
+
+.calc-input {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+}
+
+.calc-btn.feedback {
+	position: relative;
+	display: inline-block;
+	font-size: 2rem;
+	font-family: 'PFDinDisplayPro-Black', 'PT Sans', Verdana, Arial, sans-serif;
+	color: #fff !important;
+	border: 0;
+	background: rgb(253,0,0);
+	background: -moz-linear-gradient(top,  rgba(253,0,0,1) 0%, rgba(196,17,17,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(253,0,0,1) 0%,rgba(196,17,17,1) 100%);
+	background: linear-gradient(to bottom,  rgba(253,0,0,1) 0%,rgba(196,17,17,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd0000', endColorstr='#c41111',GradientType=0 );
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 0 -2px 2px rgba(0,0,0,.2) inset;
+	margin: 10px auto;
+	padding: 10px 40px;
+}
+
 section {
 	position: relative;
 	display: block;
