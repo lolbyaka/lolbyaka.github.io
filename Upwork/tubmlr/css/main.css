@@ -504,6 +504,10 @@ header .main-photo .tumblr-text {
   width: 733px;
 }
 
+.grid-item--width4 {
+  width: 1000px;
+}
+
 .post .post-header {
   background-color: #fff;
   padding: 15px 20px;
@@ -595,13 +599,13 @@ header .main-photo .tumblr-text {
 .post .post-content.image {
   padding: 0;
 }
-.post .post-content.video {
+.post .post-content {
   padding: 0;
 }
-.post .post-content.video iframe {
+.post .post-content iframe {
   width: 100%;
 }
-.post .post-content.quote blockquote {
+.post .post-content blockquote {
   padding: 0;
   margin: 0;
   font-size: 44px;
@@ -613,7 +617,7 @@ header .main-photo .tumblr-text {
   text-align: left;
   hyphens: auto;
 }
-.post .post-content.quote blockquote span {
+.post .post-content blockquote span {
   display: block;
   font-style: italic;
   margin-top: 25px;
@@ -632,6 +636,38 @@ header .main-photo .tumblr-text {
   line-height: 1.333;
   text-align: left;
   text-decoration: none;
+}
+
+.single-post .likes-wrapper {
+  margin-top: 25px;
+}
+.single-post .likes-wrapper .like {
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  line-height: 1.25;
+}
+.single-post .likes-wrapper .like a {
+  color: #fff;
+  text-decoration: none;
+}
+.single-post .post-full {
+  display: inline-block;
+  width: 240px;
+}
+.single-post .post-content {
+  font-size: 16px;
+  font-weight: 300;
+}
+.single-post .post-content blockquote {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.single-post .post-content img {
+  margin-bottom: 25px;
 }
 
 footer {
