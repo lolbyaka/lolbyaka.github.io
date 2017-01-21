@@ -549,7 +549,7 @@ header .main-photo .tumblr-text {
   line-height: 1.429;
   text-align: left;
   display: inline-block;
-  margin-right: 55px;
+  margin-right: 40px;
   position: relative;
   top: -1px;
 }
@@ -580,15 +580,17 @@ header .main-photo .tumblr-text {
 .post .post-content img {
   width: 100%;
 }
-.post .post-content img:nth-child(2) {
+.post .post-content .img-wrapper {
   margin-top: 15px;
   width: 48%;
-  margin-right: 10px;
+  display: inline-block;
 }
-.post .post-content img:nth-child(3) {
-  margin-top: 15px;
-  width: 48%;
-  margin-left: 6px;
+.post .post-content .img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.post .post-content .img-wrapper:last-child {
+  margin-left: 2.9%;
 }
 .post .post-content.image {
   padding: 0;

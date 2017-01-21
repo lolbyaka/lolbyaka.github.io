@@ -3,6 +3,19 @@
 /* Medium Devices, Desktops */
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  header .top-bar nav {
+    right: 25px;
+  }
+  header .top-bar .avatar {
+    margin-left: 25px;
+  }
+  header .main-photo .tumblr-text {
+    width: 90%;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .grid {
     padding: 0;
   }
@@ -41,6 +54,14 @@
   }
   .post-content img:nth-child(3) {
     margin-left: 1% !important;
+  }
+
+  footer {
+    padding: 25px;
+  }
+  footer .copyright span {
+    display: block;
+    margin-top: 8px;
   }
 }
 /* Custom, iPhone Retina */
