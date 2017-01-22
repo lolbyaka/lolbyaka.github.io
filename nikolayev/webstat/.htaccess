@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/xn----5-6cdbac5abxc8ahku2v.xn--p1ai/webstat"
+AuthUserFile /var/www/medel-na-zakaz/data/etc/1585165.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
