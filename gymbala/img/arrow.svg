@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="23px" viewBox="0 0 13 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-13" transform="translate(-253.000000, -3023.000000)" fill="#D9D9D9">
+            <g id="Testimonials" transform="translate(227.000000, 2731.000000)">
+                <g id="Group-20-Copy" transform="translate(33.500000, 303.500000) scale(-1, 1) translate(-33.500000, -303.500000) translate(0.000000, 270.000000)">
+                    <g id="arrow-point-to-right" transform="translate(28.000000, 22.000000)">
+                        <path d="M12.5322777,12.6386183 L2.72626029,22.5279459 C2.10247914,23.1573514 1.09112492,23.1573514 0.467646596,22.5279459 C-0.155882199,21.8991002 -0.155882199,20.8791731 0.467646596,20.2503784 L9.1444581,11.4998346 L0.467898955,2.7495961 C-0.15562984,2.12049599 -0.15562984,1.10067069 0.467898955,0.471825087 C1.09142775,-0.157275029 2.1027315,-0.157275029 2.72651265,0.471825087 L12.5325301,10.3613054 C12.8442945,10.6758809 13,11.0877305 13,11.4997837 C13,11.9120405 12.8439916,12.3241955 12.5322777,12.6386183 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
