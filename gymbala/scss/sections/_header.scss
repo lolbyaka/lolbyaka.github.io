@@ -499,6 +499,7 @@
 .photos {
     position: relative;
     padding-bottom: 120px;
+    overflow-x: hidden;
     h2 {
         font-weight: 800;
         font-size: 50px;
