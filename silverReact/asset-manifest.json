@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/silverDemo/static/css/main.596e3e08.chunk.css",
+    "main.js": "/silverDemo/static/js/main.a1e384c5.chunk.js",
+    "main.js.map": "/silverDemo/static/js/main.a1e384c5.chunk.js.map",
+    "runtime~main.js": "/silverDemo/static/js/runtime~main.4fd6c882.js",
+    "runtime~main.js.map": "/silverDemo/static/js/runtime~main.4fd6c882.js.map",
+    "static/js/2.a642394c.chunk.js": "/silverDemo/static/js/2.a642394c.chunk.js",
+    "static/js/2.a642394c.chunk.js.map": "/silverDemo/static/js/2.a642394c.chunk.js.map",
+    "index.html": "/silverDemo/index.html",
+    "precache-manifest.d05fc21702e1bff6b18fd0669d0a61d3.js": "/silverDemo/precache-manifest.d05fc21702e1bff6b18fd0669d0a61d3.js",
+    "service-worker.js": "/silverDemo/service-worker.js",
+    "static/css/main.596e3e08.chunk.css.map": "/silverDemo/static/css/main.596e3e08.chunk.css.map"
+  }
+}
